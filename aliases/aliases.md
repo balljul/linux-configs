@@ -23,7 +23,7 @@ alias cl='clear'
 # docker aliases
 alias docks='docker ps'
 alias dockstop='docker stop $(docker ps -a -q)'
-alias compup='docker compose up -d'
+alias compose='docker compose up -d'
 
 # systemctl aliases
 alias reboot='systemctl reboot'
