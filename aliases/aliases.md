@@ -22,13 +22,13 @@ alias loadal='source ~/.bashrc'
 ```
 
 
-# du aliases
+# df aliases
 ```
-alias df='df -h'
+alias df='df -hT'
 alias mydisk='df /dev/nvme0n1p2'
 ```
 
-# df aliases
+# du aliases
 ```
 alias du='du -h'
 ```
