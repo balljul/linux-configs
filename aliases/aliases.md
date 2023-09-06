@@ -2,6 +2,7 @@
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ~='cd ~/'
+alias -='cd -'
 
 alias docs='cd ~/Documents/Documentations'
 alias proj='cd ~/Documents/Projects/'
@@ -19,6 +20,7 @@ alias ls='ls --color=auto'
 
 # CLI Aliases
 alias cl='clear'
+alias »='>>'
 
 # docker aliases
 alias docks='docker ps'
@@ -28,4 +30,3 @@ alias compose='docker compose up -d'
 # systemctl aliases
 alias reboot='systemctl reboot'
 alias shutdown='systemctl poweroff'
-
