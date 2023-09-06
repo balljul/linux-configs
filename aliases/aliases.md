@@ -2,7 +2,6 @@
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ~='cd ~/'
-alias -='cd -'
 
 alias docs='cd ~/Documents/Documentations'
 alias proj='cd ~/Documents/Projects/'
@@ -13,6 +12,12 @@ alias tasklogger='cd ~/Documents/Projects/taskLoggerX'
 
 alias edital='nano ~/.bashrc'
 alias loadal='source ~/.bashrc'
+
+# du aliases
+alias df='df -h'
+
+# df aliases
+alias du='du -h'
 
 # ls aliases
 alias l='ls -ahlF --author'
