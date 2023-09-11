@@ -47,7 +47,8 @@ alias »='>>'
 
 # docker aliases
 ```
-alias docks='docker ps'
+alias alldocks='docker ps -as'
+alias docks='docker ps -s'
 alias dockstop='docker stop $(docker ps -a -q)'
 alias compose='docker compose up -d'
 ```
