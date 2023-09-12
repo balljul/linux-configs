@@ -45,6 +45,9 @@ alias cl='clear'
 alias »='>>'
 ```
 
+# Python Aliases
+alias python='python3'
+
 # docker aliases
 ```
 alias alldocks='docker ps -as'
