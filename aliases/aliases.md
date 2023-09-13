@@ -61,3 +61,6 @@ alias compose='docker compose up -d'
 alias reboot='systemctl reboot'
 alias shutdown='systemctl poweroff'
 ```
+
+# School
+alias htl='cd ~/Documents/htl-villach'
