@@ -63,5 +63,7 @@ alias shutdown='systemctl poweroff'
 ```
 
 # School
+```
 alias htl='cd ~/Documents/htl-villach'
 alias hü='nano ~/Documents/htl-villach/hausübung.md'
+```
