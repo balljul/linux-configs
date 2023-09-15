@@ -56,6 +56,11 @@ alias dockstop='docker stop $(docker ps -a -q)'
 alias compose='docker compose up -d'
 ```
 
+# taskloggerX aliases
+```
+alias tlx='python ~/Documents/Projects/taskLoggerX/app/main.py'
+```
+
 # systemctl aliases
 ```
 alias reboot='systemctl reboot'
