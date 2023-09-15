@@ -58,7 +58,7 @@ alias compose='docker compose up -d'
 
 # taskloggerX aliases
 ```
-alias tlx='python ~/Documents/Projects/taskLoggerX/app/main.py'
+alias tlx='python ~/Documents/Projects/taskLoggerX/app/main.py tlx'
 ```
 
 # systemctl aliases
