@@ -21,6 +21,9 @@ alias edital='nano ~/.bashrc'
 alias loadal='source ~/.bashrc'
 ```
 
+# networking aliases
+alias tracert='traceroute'
+
 # who aliases
 alias who='who -aH'
 
