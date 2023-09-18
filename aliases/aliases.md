@@ -21,6 +21,8 @@ alias edital='nano ~/.bashrc'
 alias loadal='source ~/.bashrc'
 ```
 
+# who aliases
+alias who='who -aH'
 
 # df aliases
 ```
