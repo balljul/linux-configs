@@ -77,3 +77,8 @@ alias shutdown='systemctl poweroff'
 alias htl='cd ~/Documents/htl-villach'
 alias hü='nano ~/Documents/htl-villach/hausübung.md'
 ```
+
+# Private
+```
+alias plans='cd ~/Documents/weekplans'
+```
