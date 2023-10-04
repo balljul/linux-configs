@@ -15,7 +15,6 @@ else
     bspc monitor eDP1 -d I II III IV V
 fi
 
-bspc monitor eDP1 -d I II III IV V
 
 bspc config border_width         2
 bspc config window_gap          12
