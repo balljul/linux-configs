@@ -75,4 +75,19 @@ return require('packer').startup(function(use)
         requires = { 'nvim-tree/nvim-web-devicons', opt = true },
         require('lualine').setup()
     }
+    use {
+        'xiyaowong/transparent.nvim',
+        require("transparent").setup({
+            groups  = {
+                'Normal', 'NormalNC', 'Comment', 'Constant', 'Special', 'Identifier',
+                'Statement', 'PreProc', 'Type', 'Underlined', 'Todo', 'String', 'Function',
+                'Conditional', 'Repeat', 'Operator', 'Structure', 'LineNr', 'NonText',
+                'SignColumn', 'CursorLineNr', 'EndOfBuffer',
+            },
+            extra_groups = {},
+            exclude_groups = {},
+        })
+    }
+
+
 end)
