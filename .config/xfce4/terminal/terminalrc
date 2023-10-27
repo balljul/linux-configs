@@ -5,7 +5,7 @@ MiscBell=FALSE
 MiscBellUrgent=FALSE
 MiscBordersDefault=FALSE
 MiscCursorBlinks=FALSE
-MiscCursorShape=TERMINAL_CURSOR_SHAPE_BLOCK
+MiscCursorShape=TERMINAL_CURSOR_SHAPE_UNDERLINE
 MiscDefaultGeometry=80x24
 MiscInheritGeometry=FALSE
 MiscMenubarDefault=FALSE
@@ -29,4 +29,6 @@ MiscSearchDialogOpacity=100
 MiscShowUnsafePasteDialog=TRUE
 MiscRightClickAction=TERMINAL_RIGHT_CLICK_ACTION_CONTEXT_MENU
 ScrollingBar=TERMINAL_SCROLLBAR_NONE
+BackgroundDarkness=0.000000
+FontUseSystem=TRUE
 
