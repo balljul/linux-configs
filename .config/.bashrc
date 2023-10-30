@@ -93,6 +93,7 @@ alias docs='cd ~/Documents/Documentations'
 alias proj='cd ~/Documents/Projects/'
 alias plains='cd ~/Documents/docker-plain-projects'
 
+alias afx='cd ~/Documents/Projects/ArcadeFusionX'
 alias webstudio='cd ~/Documents/Projects/gbv/GBV_Webstudio'
 alias tasklogger='cd ~/Documents/Projects/taskLoggerX'
 
@@ -174,3 +175,4 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+. "$HOME/.cargo/env"
