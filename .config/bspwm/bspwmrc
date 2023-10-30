@@ -2,7 +2,7 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-bspc monitor -d I II III IV V VI VII VIII IX X
+bspc monitor -d dev dev dev web web tool tool rest 
 
 if [[ $(xrandr -q | grep 'DP-2-1 connected') && $(xrandr -q | grep 'DP-2-3 connected') ]]; then
     # Your commands to execute when both conditions are true
@@ -17,7 +17,7 @@ fi
 
 
 bspc config border_width         2
-bspc config window_gap          12
+bspc config window_gap          10
 
 bspc config split_ratio          0.52
 bspc config borderless_monocle   true
