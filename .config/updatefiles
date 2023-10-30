@@ -1,4 +1,42 @@
 #! /usr/bin/bash
 
-echo "Geht"
+# Example config
+# cp -r ~/.config/ ./ & 
+# echo -e " \xE2\x9C\x94" & 
+
+# Bspwm config
+cp -r ~/.config/bspwm/ ./ & 
+echo -e "Bspwm \xE2\x9C\x94" & 
+
+# Neofetch config
+cp -r ~/.config/neofetch/ ./ & 
+echo -e "Neofetch \xE2\x9C\x94" & 
+
+# NeoVim config
+cp -r ~/.config/nvim/ ./ & 
+echo -e "NeoVim \xE2\x9C\x94" & 
+
+# Picom config
+cp -r ~/.config/picom/ ./ & 
+echo -e "Picom \xE2\x9C\x94" & 
+
+# Polybar config
+cp -r ~/.config/polybar/ ./ & 
+echo -e "Polybar \xE2\x9C\x94" & 
+
+# Rofi config
+cp -r ~/.config/rofi/ ./ & 
+echo -e "Rofi \xE2\x9C\x94" & 
+
+# Sxhkd config
+cp -r ~/.config/sxhkd/ ./ & 
+echo -e "Sxhkd \xE2\x9C\x94" & 
+
+# Xfce4-Terminal config
+cp -r ~/.config/xfce4/ ./ & 
+echo -e "Xfce4 Terminal \xE2\x9C\x94" & 
+
+# Bash config config
+cp -r ~/.bashrc ./ & 
+echo -e "Bash config \xE2\x9C\x94" & 
 
