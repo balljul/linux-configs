@@ -99,6 +99,8 @@ alias tasklogger='cd ~/Documents/Projects/taskLoggerX'
 
 alias edital='nano ~/.bashrc'
 alias loadal='source ~/.bashrc'
+# Arduino aliases
+alias ard='arduino-cli'
 
 # networking aliases
 alias tracert='traceroute'
