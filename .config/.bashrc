@@ -100,7 +100,7 @@ alias tasklogger='cd ~/Documents/Projects/taskLoggerX'
 alias edital='nano ~/.bashrc'
 alias loadal='source ~/.bashrc'
 # Arduino aliases
-alias ard='arduino-cli'
+alias ard='/home/julius/bin/arduino-cli'
 
 # networking aliases
 alias tracert='traceroute'
