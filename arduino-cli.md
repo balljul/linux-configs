@@ -20,3 +20,7 @@ ard upload -v -p /dev/ttyUSB0 --fqbn arduino:avr:nano /path/to/mySketch.ino
 ard upload -v -p /dev/ttyUSB0 --fqbn arduino:avr:nano:cpu=atmega328old /path/to/mySketch.ino
 ```
 
+## Adding a library
+```
+ard lib install keyboard(library-name)
+```
