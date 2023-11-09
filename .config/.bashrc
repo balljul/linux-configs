@@ -99,6 +99,10 @@ alias tasklogger='cd ~/Documents/Projects/taskLoggerX'
 
 alias edital='nano ~/.bashrc'
 alias loadal='source ~/.bashrc'
+
+# NeoVim
+alias nv='nvim .'
+
 # Arduino aliases
 alias ard='/home/julius/bin/arduino-cli'
 
