@@ -19,3 +19,6 @@
 ## Programms
 - Currently just a list of programms
 - But it will eventually evolve into a debian install file
+
+## Cheatsheets
+- Arduino Cli Cheatsheet
