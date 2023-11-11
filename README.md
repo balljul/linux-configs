@@ -12,7 +12,8 @@
   - Sxhkd
 - Script for updating the repo
 
-## Bashscripts aka. files which belong into the /usr/bin folder
+## Bashscripts 
+**aka. files which belong into the /usr/bin folder**
 - lock
 - mybat
 
@@ -22,3 +23,5 @@
 
 ## Cheatsheets
 - Arduino Cli Cheatsheet
+- Markdown Cheatsheet (worth a look if you want to learn markdown)
+- regex Cheatsheet
