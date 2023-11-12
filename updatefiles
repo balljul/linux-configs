@@ -5,7 +5,7 @@
 # echo -e " \xE2\x9C\x94" & 
 
 # Fonts
-cp -r ~/.fonts/ ./ & 
+# cp -r ~/.fonts/ ./ & 
 echo -e "Fonts \xE2\x9C\x94" & 
 
 # Bspwm config
