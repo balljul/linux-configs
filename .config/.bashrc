@@ -121,6 +121,7 @@ alias du='du -h'
 
 # ls aliases
 alias l='ls -ahlF --author'
+alias ll='ls -ahlf --author'
 alias ls='ls --color=auto'
 alias fcount='ls -1 | wc -l'
 # CLI Aliases
