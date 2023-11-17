@@ -146,4 +146,4 @@ tar -xJf file.tar.xz
 >  
 > **[My Website](https://www.juliusball.com)**  
 > **[Github](https://www.github.com/balljul)**  
-> **[Linkedin](https://www.linkedin.com/in/juliusball/)** Alogithm Options 
+> **[Linkedin](https://www.linkedin.com/in/juliusball/)** 
