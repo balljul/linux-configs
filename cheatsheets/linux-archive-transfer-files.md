@@ -15,6 +15,7 @@
     - [Extracting an Archive](#extracting)
     - [Listing archive content](#listing)
     - [Creating a compressed Archive](#creating-compressed)
+- [Epilogue](#epilogue)
 
 <a name="overview"></a>
 ## Overview
@@ -48,6 +49,11 @@ To use `tar` with `gzip` add the `-z` flag:
 `tar` can also use `bzip2` and `xz` for compression.  
 To use `bzip2` take the `-j` flag.  
 For `xz` use the `-J` flag.  
+
+You may be wondering what the difference between those methods is:
+- `gzip` compression is the earlier, fastest method and is widely avaible across platforms
+- `bzip2` compression creates smaller archives but is less widely avaible than `gzip`
+- `xz` compression is newer and offers the best compression ratio of the available methods
 
 <a name="operations"></a>
 ## tar operations
@@ -109,4 +115,35 @@ If you want to see which files are inside of an archive we can use the `-t` flag
 `tar -tf /path/to/archive`
 
 <a name="creating-compressed"></a>
-### Creating a compressed archive
+### Creating an compressed archive
+As we learned in the chapter [gzip vs bzip2 vs xz](#gzip-vs-bzip2-vs-xz-compression) there are different compression algorithms.  
+I personally preffer to use the xz algo because it is said to be the best.  
+Now, to create a compressed archive just add the coresponding flag.  
+In my example that would be the `-J` or `--xz` flag:  
+`tar -cJf backup.tar.xz file1.txt file2.md file3.log file4.sh`
+
+<a name="extracting-compressed"></a>
+### Extracting compressed archives
+When it comes to extracting an compressed archive there are two possible options.  
+Firstly you could just use the `-a` `--auto-compress` flag which determits the decompression algo by looking at the file suffix.  
+The problem is that you could have files which dont have a valid suffix or dont even have on.  
+In this case you can use flags to determit which algo should be used.  
+We already learned about them in the chapter [Alorithm Options](#operations-3).  
+Here are some examples on how to use them:  
+
+```
+tar -xaf file.tar.xz
+tar -xzf file.tar.xz
+tar -xjf file.tar.xz
+tar -xJf file.tar.xz
+```
+
+<a name="epilogue"></a>
+## Epilogue
+
+> **Julius Ball**  
+> **contact@juliusball.com**  
+>  
+> **[My Website](https://www.juliusball.com)**  
+> **[Github](https://www.github.com/balljul)**  
+> **[Linkedin](https://www.linkedin.com/in/juliusball/)** Alogithm Options 
