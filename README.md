@@ -24,4 +24,5 @@
 ## Cheatsheets
 - Arduino Cli Cheatsheet
 - Markdown Cheatsheet (worth a look if you want to learn markdown)
-- regex Cheatsheet
+- Regex Cheatsheet
+- Debian-logging Cheatsheet
