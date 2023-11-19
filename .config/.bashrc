@@ -100,6 +100,9 @@ alias tasklogger='cd ~/Documents/Projects/taskLoggerX'
 alias edital='nano ~/.bashrc'
 alias loadal='source ~/.bashrc'
 
+# amixer
+alias vol="amixer sset 'Master'"
+
 # NeoVim
 alias nv='nvim .'
 
