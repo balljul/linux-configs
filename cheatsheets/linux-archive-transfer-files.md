@@ -15,6 +15,7 @@
     - [Extracting an Archive](#extracting)
     - [Listing archive content](#listing)
     - [Creating a compressed Archive](#creating-compressed)
+- [Transfer Files Between Systems Securely](#sftp)
 - [Epilogue](#epilogue)
 
 <a name="overview"></a>
@@ -137,6 +138,33 @@ tar -xzf file.tar.xz
 tar -xjf file.tar.xz
 tar -xJf file.tar.xz
 ```
+<a name="sftp"></a>
+## SFTP
+<a name="sftp-overview"></a>
+### Overview
+SFTP is part of the OpenSSH Suite and is used to interactivly upload/download files to/from a remote server.  
+A session via the `sftp` command used the *secure athentification mechanism* to encrypt data transfer to/from the ssh server.  
+
+<a name="sftp-usage"></a>
+### Usage
+To use SFTP you need to enter the `sftp` command combined wiht the username and addresses of the remote host.  
+Here is an example:  
+
+`sftp balljul@192.168.25.3`
+
+For testing out sftp the first time you can also connect to your current mashine by using the credentials which are in your terminal.  
+
+
+<a name="sftp-commands"></a>
+### Commands
+When you succesfully connect you to a session you can use various commands line:
+- `pwd`
+- `ls`
+- `mkdir`
+- `chmod`
+- ...
+
+
 
 <a name="epilogue"></a>
 ## Epilogue
