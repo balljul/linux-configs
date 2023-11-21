@@ -15,7 +15,13 @@
     - [Extracting an Archive](#extracting)
     - [Listing archive content](#listing)
     - [Creating a compressed Archive](#creating-compressed)
-- [Transfer Files Between Systems Securely](#sftp)
+- [Sftp](#sftp)
+    - [Overview](#overview-2)
+    - [Usage](#usage)
+    - [Commands](#commands)
+        - [Put](#sftp-commands-put)
+        - [Get](#sftp-commands-get)
+- [Secure Copy Protocol](#scp)
 - [Epilogue](#epilogue)
 
 <a name="overview"></a>
@@ -151,20 +157,58 @@ To use SFTP you need to enter the `sftp` command combined wiht the username and 
 Here is an example:  
 
 `sftp balljul@192.168.25.3`
+or
+`sftp julius@julius`
 
 For testing out sftp the first time you can also connect to your current mashine by using the credentials which are in your terminal.  
 
 
 <a name="sftp-commands"></a>
 ### Commands
-When you succesfully connect you to a session you can use various commands line:
+When you succesfully connect you to a session you can use various commands which you should know already:
 - `pwd`
+- `lpwd`
 - `ls`
 - `mkdir`
 - `chmod`
-- ...
 
+You might wonder what the difference between pwd and lpwd is.  
+`pwd` gives you the working dir of the maching you are connected to.  
+`lpwd` gives you the working dir of your local machine.  
 
+There are also some commands which are new:  
+- `put` => Uploading files to the remote host
+- `get` => Downloading files from the remote host
+
+<a name="sftp-commands-put"></a>
+#### The put command
+The put command let your upload files to the remote host like this:  
+
+`put [options] <local-path> [remote-path]`
+
+The local path is required, but you can, as you see, also define the remote path, to define where the file should 
+be saved on the remote machine.  
+
+There are also several options avaible:
+- `-r` => If you want to upload a folder
+- `-P` => Specifies the port on a server
+- `-o` => Allows you to specify options in the format used by the ssh client
+
+<a name="sftp-commands-get"></a>
+#### The get command
+The get command lets you download files from the remote host like this:  
+
+`get [options] <remote-path> [local-path]`  
+
+With the get command the remote path is required, but you can also specify a local path for the download.  
+
+The options are the same as those of the put command:
+- `-r` => For downloading a whole directory
+- `-P` => For specifying the port
+- `-o` => For specifying the format used by the ssh client
+
+<a name="scp"></a>
+## Secure Copy Protocol (scp)
 
 <a name="epilogue"></a>
 ## Epilogue

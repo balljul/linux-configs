@@ -47,7 +47,6 @@ Here are the basics:
 - `l` => Move your cursor to the right
 - `j` => Move your cursor down
 - `k` => Move your cursor up
-
 - `yy` => Yanks (copies) the content of the current line 
 - `p` => Pastes in the copied content
 - `dd` => deletes the current line
@@ -59,7 +58,12 @@ Those are just some basics and I will go into more detail in the vim chapter.
 
 <a name="vi-command"></a>
 #### Command mode
-The command mode can be accessed by 
+The command mode can be accessed by typing `:` in the normal mode.  
+In command mode you can do commands for saving a file and more:  
+- `:w` => write contents / save file
+- `:q` => quit / exit the editor
+
+
 
 <a name="vi-visual"></a>
 #### Visual Mode
