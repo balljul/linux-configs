@@ -15,13 +15,16 @@
     - [Extracting an Archive](#extracting)
     - [Listing archive content](#listing)
     - [Creating a compressed Archive](#creating-compressed)
-- [Sftp](#sftp)
+- [SFTP](#sftp)
     - [Overview](#overview-2)
     - [Usage](#usage)
     - [Commands](#commands)
         - [Put](#sftp-commands-put)
         - [Get](#sftp-commands-get)
 - [Secure Copy Protocol](#scp)
+- [Rsync](#rsync)
+    - [Overview](#rsync-overview)
+    - [Usage](#rsync-usage)
 - [Epilogue](#epilogue)
 
 <a name="overview"></a>
@@ -145,7 +148,7 @@ tar -xjf file.tar.xz
 tar -xJf file.tar.xz
 ```
 <a name="sftp"></a>
-## SFTP
+## Sftp
 <a name="sftp-overview"></a>
 ### Overview
 SFTP is part of the OpenSSH Suite and is used to interactivly upload/download files to/from a remote server.  
@@ -209,6 +212,74 @@ The options are the same as those of the put command:
 
 <a name="scp"></a>
 ## Secure Copy Protocol (scp)
+The `scp` command is based on the `rcp` command which wasn´t designed with security in mind.  
+Since there are still many vulnabilities many linux distributions use `sftp` or `rsync` for that matter.  
+
+<a name="rsync"></a>
+## Rsync
+<a name="rsync-overview"></a>
+### Overview
+`rsync` allows you to synchronyze files between two hosts.  
+It minimyzes the copied data by only transfering files that have been changed.  
+It also is way more secure than `scp` and as mentioned also substentionally faster.  
+
+<a name="rsync-usage"></a>
+### Usage
+The arguments of the rsync command look as following:  
+
+`rsync [option] source destination`
+
+As you can see options are again optional.  
+The source and destination path are required.  
+
+<a name="rsync-options-basic"></a>
+### Basic Options
+The options relativly easy to remember and look as followed:  
+- `-r` `--recursive`=> Recursive copying for syncing a folder
+- `-l` `--links`=> Syncing a symbolic link (File/Folder that points to another file/folder)
+- `-p` `--perms`=> For preserving permissions of the synced content
+- `-t` `--times` => For Preserving timestamps
+- `-g` `--group` => For preserving group ownerships
+- `-o` `-owner` => For preserving the owner of the files
+- `-D` `--devices` => For preserving device files
+
+
+<a name="rsync-options-advanced"></a>
+### Advanced options
+There are also some options whihc are very helpfull when syncing:  
+- `-n` => **Simulates** what would happen if you executed the command
+- `-v` `--verbose` => Provides more information about the process
+- `-a` `--archive` => Enables all basic options and therefore preserves lots of information
+
+<a name="rsync-examples"></a>
+### Usage examples
+The following examples will give more clarity on how to use the rsync utility.  
+
+```
+rsync -avn /path/to/important/folder/ 192.168.16.12:/home/usr/Documents/
+rsync -av /path/to/important/folder/ 192.168.16.12:/home/usr/Documents/
+```
+
+In this example we do a dry run at first (using the `-n` flag) to see if everything would go right, 
+then we execute the command and it syncs the local folder into the remote host`s Documents folder.  
+
+```
+rsync -avn 192.168.16.12:/path/to/important/folder/ /tmp/
+rsync -av 192.168.16.12:/path/to/important/folder/ /tmp/
+```
+
+Here we do the same as before, but insted of syncing something to the remote host we
+sync a folder from the remote host onto our system.  
+
+<a name="rsync-important"></a>
+### Important Things
+Correctly specifying a source directory trailing slash is important. 
+A source directory with a trailing slash synchronizes the contents of the directory without including 
+the directory itself. The contents are synced directly into the destination 
+directory. Without the trailing slash, the source directory itself 
+will sync to the destination directory. The source directory's contents are 
+in the new subdirectory in the destination.
+
 
 <a name="epilogue"></a>
 ## Epilogue
