@@ -25,6 +25,10 @@
 - [Rsync](#rsync)
     - [Overview](#rsync-overview)
     - [Usage](#rsync-usage)
+    - [Basic Options](#rsync-options-basic)
+    - [Advanced Options](#rsync-options-advanced)
+    - [Examples](#rsync-examples)
+    - [Iportant Things](#rsync-important)
 - [Epilogue](#epilogue)
 
 <a name="overview"></a>
