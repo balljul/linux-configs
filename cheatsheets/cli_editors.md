@@ -9,6 +9,7 @@
     - [Command mode](#vi-command)
     - [Visual mode](#vi-visual)
 - [Vim](#vim)
+    - [Features](#vim-features)
 - [NeoVim](#nvim)
 
 <a name="nano"></a>
@@ -64,21 +65,41 @@ In command mode you can do commands for saving a file and more:
 - `:q` => quit / exit the editor
 
 
-
 <a name="vi-visual"></a>
 #### Visual Mode
+Visual mode allows you to mark your code and (fe. copy it).  
+By pressing `v` or `V` in normal mode you can enter visual mode.  
+When entering visual mode with `v` you can mark characters.  
+When entering with `V` you enter in blockwise visual mode.  
 
-
+After marking your code you can do things like copying with `y`
+or deleting with `d`.  
 
 <a name="vim"></a>
 ## Vim
-**Stands for Vi IMproved**
+**Stands for Vi IMproved**  
+*Vim* introduced several new features comparred to vi.  
 
-
-
+<a name="vim-features"></a>
+### Features
+As I already said Vim introduced many new features.  
+Here are some examples:
+- Multiple Undo/Redos
+- Blockwise Visual Mode
+- Syntax Higlighting
+- Cmd Autocompletion
+- Splitted Windows
+- Filesystem Navigation
 
 <a name="nvim"></a>
 ## NeoVim
-**Stands for new Vim**
+NeoVim is a fork of Vim and introduced the option to use a package Manager.  
+It is also really easy to customize keybinds and add keybinds as it`s written in Lua.  
 
+The option to use a package manager enables the user to install plugins:
+Some examples would be:
+- Language Servers for advanced Syntax Highlighting and Code Snippets.  
+- Different Navigation options
+- thousands of other plugins
 
+If you want to learn more about NeoVim I advice you to visit the Docs [here](https://neovim.io/doc/user/nvim.html).  
