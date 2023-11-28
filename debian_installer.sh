@@ -42,13 +42,57 @@ check_choice() {
 
 }
 
+# Installer Scripts
+
+install_wm() {
+    clear  
+
+    echo "Installing the Window Manager: "
+
+    # sudo apt install bspwm -y &> /dev/null
+    echo -e "Bspwm \xE2\x9C\x94"  
+
+    # sudo apt install sxhkd -y &> /dev/null
+    echo -e "Sxhkd \xE2\x9C\x94"  
+
+    # sudo apt install polybar -y &> /dev/null
+    echo -e "Polybar \xE2\x9C\x94"  
+
+    # sudo apt install compton -y &> /dev/null
+    echo -e "Compton \xE2\x9C\x94"  
+
+    # sudo apt install rofi -y &> /dev/null
+    echo -e "Rofi \xE2\x9C\x94"  
+
+    # sudo apt install dunst -y &> /dev/null
+    echo -e "Dunst \xE2\x9C\x94"  
+
+    # sudo apt install nitrogen -y &> /dev/null
+    echo -e "Nitrogen \xE2\x9C\x94"  
+
+    # sudo apt install i3lock -y &> /dev/null
+    echo -e "i3lock \xE2\x9C\x94"  
+
+    # sudo apt install redshift -y &> /dev/null
+    echo -e "Redshift \xE2\x9C\x94"  
+
+    # sudo apt install cmus -y &> /dev/null
+    echo -e "Cmus \xE2\x9C\x94"  
+
+    # sudo apt install ranger -y &> /dev/null
+    echo -e "Ranger \xE2\x9C\x94"  
+
+}
+
 # Installation Choices
 while true; do
     read -p "Do you want to start the WM Installation: " choice
     wm_choice=$(check_choice "$wm_choice")
-    echo "$wm_choice"
 
-    if [ "$wm_choice" -eq 0 ] || [ "$wm_choice" -eq 1 ]; then
+    if [ "$wm_choice" -eq 1 ]; then
+        install_wm
+        break
+    elif [ "$wm_choice" -eq 0 ]; then
         break
     elif [ "$wm_choice" -eq 2 ]; then
         continue
@@ -57,9 +101,19 @@ while true; do
     fi
 done
 
-# Validating Inputs
+while true; do
+    read -p "Do you want to load my configs for the WM: " choice
+    wm_choice=$(check_choice "$wm_choice")
 
-
-
-# Installer Scripts
+    if [ "$wm_choice" -eq 1 ]; then
+        configure_wm
+        break
+    elif [ "$wm_choice" -eq 0 ]; then
+        break
+    elif [ "$wm_choice" -eq 2 ]; then
+        continue
+    else
+        continue
+    fi
+done
 
