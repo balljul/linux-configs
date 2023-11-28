@@ -1,4 +1,6 @@
 # My personal linux configs
+## Debian Installer
+- This file is for installing my debian configs and more. It is currently in the making
 ## .config files:
 - NeoVim
 - NeoFetch
@@ -16,10 +18,6 @@
 **aka. files which belong into the /usr/bin folder**
 - lock
 - mybat
-
-## Programms
-- Currently just a list of programms
-- But it will eventually evolve into a debian install file
 
 ## Cheatsheets
 - Arduino Cli Cheatsheet
