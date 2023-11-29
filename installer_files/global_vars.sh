@@ -11,6 +11,7 @@ npm_choice=""
 python_choice=""
 arduino_choice=""
 cargo_choice=""
+htop_choice=""
 
 whatsapp_choice=""
 onenote_choice=""
