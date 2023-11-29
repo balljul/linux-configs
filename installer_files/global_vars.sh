@@ -8,6 +8,7 @@ xfce_choice=""
 docker_choice=""
 docker_config_choice=""
 npm_choice=""
+
 python_choice=""
 arduino_choice=""
 

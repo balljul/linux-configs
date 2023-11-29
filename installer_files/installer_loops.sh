@@ -79,3 +79,47 @@ while true; do
         continue
     fi
 done
+
+
+while true; do
+    read -p "Do you want to install the npm & node: " choice
+    npm_choice=$(check_choice "$choice")
+
+    if [ "$npm_choice" -eq 1 ]; then
+        choice=""
+        install_npm
+        break
+    elif [ "$npm_choice" -eq 0 ]; then
+        choice=""
+        break
+    elif [ "$npm_choice" -eq 2 ]; then
+        choice=""
+        continue
+    else
+        choice=""
+        continue
+    fi
+done
+
+: '
+while true; do
+    read -p "Do you want to install the npm: " choice
+    _choice=$(check_choice "$choice")
+
+    if [ "$_choice" -eq 1 ]; then
+        choice=""
+        install_
+        break
+    elif [ "$_choice" -eq 0 ]; then
+        choice=""
+        break
+    elif [ "$_choice" -eq 2 ]; then
+        choice=""
+        continue
+    else
+        choice=""
+        continue
+    fi
+done
+
+'

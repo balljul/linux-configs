@@ -167,3 +167,12 @@ configure_docker() {
     sudo systemctl enable containerd.service
     echo -e "Docker configured \xE2\x9C\x94"  
 }
+
+install_npm() {
+    sudo apt update &> /dev/null
+    sudo apt install nodejs -y &> /dev/null
+    sudo apt install npm -y &> /dev/null
+    echo -e "Npm and Node installed \xE2\x9C\x94"  
+}
+
+
