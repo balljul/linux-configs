@@ -175,4 +175,12 @@ install_npm() {
     echo -e "Npm and Node installed \xE2\x9C\x94"  
 }
 
+install_python() {
+    sudo apt install python3.11 -y &> /dev/null
+    echo -e "Npm and Node installed \xE2\x9C\x94"  
+}
 
+install_arduino() {
+    curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | sh &> /dev/null
+    echo -e "Arduino-cli installed \xE2\x9C\x94"  
+}

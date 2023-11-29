@@ -101,6 +101,47 @@ while true; do
     fi
 done
 
+while true; do
+    read -p "Do you want to install the Python3.11: " choice
+    python_choice=$(check_choice "$choice")
+
+    if [ "$python_choice" -eq 1 ]; then
+        choice=""
+        install_python
+        break
+    elif [ "$python_choice" -eq 0 ]; then
+        choice=""
+        break
+    elif [ "$python_choice" -eq 2 ]; then
+        choice=""
+        continue
+    else
+        choice=""
+        continue
+    fi
+done
+
+while true; do
+    read -p "Do you want to install arduino-cli: " choice
+    arduino_choice=$(check_choice "$choice")
+
+    if [ "$arduino_choice" -eq 1 ]; then
+        choice=""
+        install_python
+        break
+    elif [ "$arduino_choice" -eq 0 ]; then
+        choice=""
+        break
+    elif [ "$arduino_choice" -eq 2 ]; then
+        choice=""
+        continue
+    else
+        choice=""
+        continue
+    fi
+done
+
+
 : '
 while true; do
     read -p "Do you want to install the npm: " choice
