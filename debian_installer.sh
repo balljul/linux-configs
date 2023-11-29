@@ -9,4 +9,4 @@ fi
 source "installer_files/global_vars.sh"
 source "installer_files/installer_functions.sh"
 source "installer_files/installer_loops.sh"
-
+source "installer_files/installer_callers.sh"
