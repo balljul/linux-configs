@@ -184,3 +184,8 @@ install_arduino() {
     curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | sh &> /dev/null
     echo -e "Arduino-cli installed \xE2\x9C\x94"  
 }
+
+install_cargo() {
+    curl https://sh.rustup.rs -sSf | sh
+    echo -e "Cargo installed \xE2\x9C\x94"  
+}

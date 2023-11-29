@@ -127,7 +127,7 @@ while true; do
 
     if [ "$arduino_choice" -eq 1 ]; then
         choice=""
-        install_python
+        install_arduino
         break
     elif [ "$arduino_choice" -eq 0 ]; then
         choice=""
@@ -141,6 +141,25 @@ while true; do
     fi
 done
 
+while true; do
+    read -p "Do you want to install : " choice
+    cargo_choice=$(check_choice "$choice")
+
+    if [ "$cargo_choice" -eq 1 ]; then
+        choice=""
+        install_cargo
+        break
+    elif [ "$cargo_choice" -eq 0 ]; then
+        choice=""
+        break
+    elif [ "$cargo_choice" -eq 2 ]; then
+        choice=""
+        continue
+    else
+        choice=""
+        continue
+    fi
+done
 
 : '
 while true; do
