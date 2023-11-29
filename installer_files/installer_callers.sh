@@ -27,3 +27,6 @@ fi
 if [ "$neofetch_choice" -eq 1 ]; then
     install_neofetch
 fi
+if [ "$htop_choice" -eq 1 ]; then
+    install_htop
+fi

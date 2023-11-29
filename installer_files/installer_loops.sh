@@ -166,3 +166,22 @@ while true; do
     fi
 done
 
+while true; do
+    read -p "Do you want to install htop: " choice
+    htop_choice=$(check_choice "$choice")
+
+    if [ "$htop_choice" -eq 1 ]; then
+        choice=""
+        break
+    elif [ "$htop_choice" -eq 0 ]; then
+        choice=""
+        break
+    elif [ "$htop_choice" -eq 2 ]; then
+        choice=""
+        continue
+    else
+        choice=""
+        continue
+    fi
+done
+
