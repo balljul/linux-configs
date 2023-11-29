@@ -177,7 +177,7 @@ install_npm() {
 
 install_python() {
     sudo apt install python3.11 -y &> /dev/null
-    echo -e "Npm and Node installed \xE2\x9C\x94"  
+    echo -e "Python3.11 installed \xE2\x9C\x94"  
 }
 
 install_arduino() {
