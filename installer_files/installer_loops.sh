@@ -147,3 +147,22 @@ while true; do
     fi
 done
 
+while true; do
+    read -p "Do you want to install neofetch: " choice
+    neofetch_choice=$(check_choice "$choice")
+
+    if [ "$neofetch_choice" -eq 1 ]; then
+        choice=""
+        break
+    elif [ "$neofetch_choice" -eq 0 ]; then
+        choice=""
+        break
+    elif [ "$neofetch_choice" -eq 2 ]; then
+        choice=""
+        continue
+    else
+        choice=""
+        continue
+    fi
+done
+

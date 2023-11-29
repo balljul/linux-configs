@@ -189,3 +189,7 @@ install_cargo() {
     curl https://sh.rustup.rs -sSf | sh
     echo -e "Cargo installed \xE2\x9C\x94"  
 }
+install_neofetch() {
+    sudo apt install neofetch -y &> /dev/null
+    echo -e "Neofetch installed \xE2\x9C\x94"  
+}
