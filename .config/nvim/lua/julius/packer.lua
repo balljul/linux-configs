@@ -11,7 +11,9 @@ vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
     -- Packer can manage itself
-    use 'wbthomason/packer.nvim'
+    use 'wbthomason/packer.nvim' 
+
+    use 'xiyaowong/transparent.nvim' 
 
     use {
         'nvim-telescope/telescope.nvim', tag = '0.1.3',
@@ -72,21 +74,7 @@ return require('packer').startup(function(use)
     }
     use {
         'nvim-lualine/lualine.nvim',
-        requires = { 'nvim-tree/nvim-web-devicons', opt = true },
-        require('lualine').setup()
-    }
-    use {
-        'xiyaowong/transparent.nvim',
-        require("transparent").setup({
-            groups  = {
-                'Normal', 'NormalNC', 'Comment', 'Constant', 'Special', 'Identifier',
-                'Statement', 'PreProc', 'Type', 'Underlined', 'Todo', 'String', 'Function',
-                'Conditional', 'Repeat', 'Operator', 'Structure', 'LineNr', 'NonText',
-                'SignColumn', 'CursorLineNr', 'EndOfBuffer',
-            },
-            extra_groups = {},
-            exclude_groups = {},
-        })
+        requires = { 'nvim-tree/nvim-web-devicons', opt = true }
     }
 
 end)

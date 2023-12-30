@@ -32,4 +32,4 @@ bspc rule -a Screenkey manage=off
 # Auto-Start Programms:
 picom --config $HOME/.config/picom/picom.conf & 
 polybar &
-feh --bg-scale /home/julius/Pictures/Background-debian.jpg
+feh --bg-scale /home/julius/Background-debian.jpg

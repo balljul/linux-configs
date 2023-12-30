@@ -89,6 +89,7 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ~='cd ~/'
 
+alias a='curl parrot.live'
 alias docs='cd ~/Documents/Documentations'
 alias proj='cd ~/Documents/Projects/'
 alias plains='cd ~/Documents/docker-plain-projects'
@@ -124,7 +125,7 @@ alias du='du -h'
 
 # ls aliases
 alias l='ls -ahlF --author'
-alias ll='ls -ahlf --author'
+alias ll='ls -hlF --author'
 alias ls='ls --color=auto'
 alias fcount='ls -1 | wc -l'
 # CLI Aliases
