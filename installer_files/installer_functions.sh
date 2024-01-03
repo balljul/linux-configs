@@ -87,7 +87,7 @@ configure_wm() {
 }
 
 install_snap() {
-    sudo apt install snap -y &> /dev/null
+    sudo apt install snapd -y &> /dev/null
     echo -e "Snapstore installed \xE2\x9C\x94"  
 }
 
