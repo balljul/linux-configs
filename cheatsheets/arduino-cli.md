@@ -36,3 +36,8 @@ ard upload -v -p /dev/ttyUSB0 --fqbn arduino:avr:nano:cpu=atmega328old /path/to/
 ```
 ard lib install keyboard(library-name)
 ```
+
+## Listening to Serial ports
+```
+ard serial monitor -p /dev/ttyUSB0
+```
