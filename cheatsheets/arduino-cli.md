@@ -24,6 +24,7 @@ arduino-cli compile -b arduino:avr:nano path/to/file.ino
 ```
 ard upload -v -p /dev/ttyUSB0 --fqbn arduino:avr:nano /path/to/mySketch.ino
 ard upload -v -p /dev/ttyUSB0 --fqbn arduino:avr:mega /path/to/mySketch.ino
+ard upload -v -p /dev/ttyUSB0 --fqbn arduino:avr:leonardo /path/to/mySketch.ino
 ```
 
 ## Uploading with another bootloader
