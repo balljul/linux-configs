@@ -39,5 +39,5 @@ ard lib install keyboard(library-name)
 
 ## Listening to Serial ports
 ```
-ard serial monitor -p /dev/ttyUSB0
+ard monitor -p /dev/ttyACM0
 ```
