@@ -24,3 +24,4 @@ xrandr --output DP-2-2 --rotate right &
 polybar &
 xset dpms 0 0 0 && xset s noblank  && xset s off &
 feh --bg-scale /home/julius/Background-debian.jpg
+setxkbmap -option caps:escape
