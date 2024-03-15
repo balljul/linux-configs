@@ -188,7 +188,7 @@ if ! shopt -oq posix; then
 fi
 . "$HOME/.cargo/env"
 
+eval "$(zoxide init posix --cmd cd --hook prompt)"
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH=$BUN_INSTALL/bin:$PATH
-eval "$(zoxide init posix --cmd cd --hook prompt)"
