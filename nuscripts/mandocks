@@ -1,0 +1,39 @@
+#! /home/julius/.cargo/bin/nu
+
+# Collections
+let docks = {
+    'GBV Webstudio' : '/home/julius/GBV/GBV_Webstudio',
+    'GBV Webcrawler': '/home/julius/GBV/GBV_Webcrawler_02',
+    'Datacycle Plain': '/home/julius/Projects/Forks/dataCycle/dataCycle-PLAIN',
+    'All Docks': '/home/julius'
+} | transpose key value
+let actions = ['attached', 'detached', 'compose down']
+
+# Dynamic Vars
+let dock_selection = $docks | get key | to text | fzf
+let action_selection = $actions | to text | fzf
+let final_path = $docks | where key == $dock_selection | get value | to text
+let starting_path = pwd | to text
+
+if ($final_path == '/home/julius') {
+    if ($action_selection != 'compose down') {
+        echo "Only compose down is avaiable for All Docks"
+    } else {
+        let all_docks = docker ps -q | lines
+        $all_docks | each { |id| docker stop $id}       
+        echo $"Succesfully stopped ($all_docks | length) containers"
+    }
+} else {
+    if ($action_selection == 'attached') { 
+        cd $final_path
+        docker compose up
+    } else if ($action_selection == 'detached') { 
+        cd $final_path
+        docker compose up -d 
+        cd $starting_path
+    } else if ($action_selection == 'compose down') { 
+        cd $final_path
+        docker compose down
+        cd $starting_path
+    }
+}
