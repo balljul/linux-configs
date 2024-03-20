@@ -51,3 +51,7 @@ echo -e "Bash config \xE2\x9C\x94" &
 # UserDirs config
 cp ~/.config/user-dirs.dirs ./ & 
 echo -e "UserDir config \xE2\x9C\x94" & 
+
+# UserDirs config
+cp ~/.config/nushell/ ./.config/ & 
+echo -e "Nushell config \xE2\x9C\x94" & 

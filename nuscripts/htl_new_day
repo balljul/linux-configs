@@ -1,0 +1,11 @@
+#! /usr/bin/env nu
+
+let subject = basename $env.PWD
+let timestamp = (date now | format date "%Y-%m-%d")
+let name = (input)
+let full_file_name = $timestamp + '__' + $subject  + '__' + ($name | str downcase | str replace --all '  ' '_'| str replace --all ' ' '_') + '.md'
+
+let heading = '# ' + ($timestamp | into datetime | format date "%d %B %Y") + " " + $name
+
+touch $full_file_name
+$heading | save --append $full_file_name
