@@ -1,4 +1,4 @@
-#! /usr/bin/bash
+#! /usr/bin/env bash
 
 # Example config
 # cp -r ~/.config/ ./ & 
@@ -53,5 +53,5 @@ cp ~/.config/user-dirs.dirs ./ &
 echo -e "UserDir config \xE2\x9C\x94" & 
 
 # UserDirs config
-cp ~/.config/nushell/ ./.config/ & 
+cp -r ~/.config/nushell/ ./.config/ & 
 echo -e "Nushell config \xE2\x9C\x94" & 

@@ -1,5 +1,4 @@
 [Configuration]
-BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
 MiscAlwaysShowTabs=FALSE
 MiscBell=FALSE
 MiscBellUrgent=FALSE
@@ -32,4 +31,8 @@ FontUseSystem=TRUE
 BackgroundDarkness=0.190000
 ScrollingBar=TERMINAL_SCROLLBAR_NONE
 ScrollingUnlimited=TRUE
+ColorBackground=#000000000000
+BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
+RunCustomCommand=TRUE
+CustomCommand=/home/julius/.cargo/bin/nu
 

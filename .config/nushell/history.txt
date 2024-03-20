@@ -1,0 +1,2271 @@
+exa
+cargo install exa
+ls
+clear
+l
+ls
+clear
+alias l = 'ls'
+l
+clear
+ls
+cd 
+cd htl
+z 
+clear
+cd GBV/GBV_Webstudio/
+clear
+l
+clear
+ls
+ls | where size >= 0
+ls | sort-by size | reverse
+clear
+clear -x
+clear
+bash ls
+clear
+ls
+clear
+ps
+htop
+clear
+date now
+sys
+sys | get host
+clear
+exit
+tmux
+ls
+clear
+ll
+clear
+all
+clear
+ls | where size >= 0
+ls | where size > 0
+ls | where size > 0 | reverse
+ls | where size > 0m | reverse
+l
+clear
+ls
+ls | where size > 4.0 Kib
+ls | where size > 4.0
+ls | where size < 4.0
+clear
+exit
+ls
+clear
+ls
+clear
+cd gbv
+cargo install zoxide
+z 
+clear
+pwd
+clear
+cargo install zoxide --locked<\n>
+z
+clear
+z gbv
+clear
+ls
+zoxide
+clear
+ls
+clear
+ls
+clear
+nv
+nvim
+nvim ./
+clear
+l
+clear
+nvim ./
+exit
+clear
+ls -l
+ls -al
+clear
+ls -al 
+clear
+ls
+clear
+ls -al
+zoxide Gbv
+zoxide 
+zoxide gbv
+clear
+ls -al
+cd .config/nushell/
+l
+ls
+nvim
+nvim ./
+l
+clear
+l
+ll
+clear
+exit
+ll
+l
+clear
+l
+ls
+clear
+ls -ahlf
+ls -f
+clear
+ls -ahfl
+clear
+ls
+clear
+l
+cd .config/nushell/
+clear
+nvim ./
+nv
+reload
+exit
+nv
+clear
+nv
+cd .config/nushell/
+vn
+nv
+exit
+l
+cd
+clear
+cd gbv
+clear
+l
+l | grep 'zoxide'
+l
+clear
+exit
+nu
+exit
+clear
+exit
+bash ls
+clear
+bash l
+ls
+clear
+eit
+clear
+exit
+celar
+clear
+ls
+exa
+cöear
+clear
+exit
+nu
+exit
+clear
+ls
+history
+clear
+ls
+cd chemie
+touch penis.txt
+ls
+rm penis.txt
+ls
+..
+clear
+cd clear
+clear
+cd
+clear
+cd gbv
+clear
+z
+z GBV/
+claer
+clear
+zoxide gbv
+clear
+cd ~/
+cd GBV/GBV_Webstudio/
+docker compose up
+clear
+exa
+clear
+alias
+clear
+l
+ll
+clear
+exa
+exa --grid
+man exa
+celar
+clear
+exa --across
+clear
+exa -l
+exa -l --grid
+clear
+exa --header --long --list-dirs build.rs contrib /dev/{stdout,tun0}<\n>
+exa --header --long --list-dirs
+exa --header --long --list-dirs -a
+clear
+exa --header --long --list-dirs 
+exa -lh
+clear
+l
+ll
+clear
+l
+exa | l
+clear
+l | exa
+clear
+exa -l
+alias
+clear
+cargo install --locked zellij<\n>
+exit
+zellij
+zellij ls
+clear
+zellij
+celar
+zellij ls
+exit
+tmux
+clear
+l
+clear
+l
+clear
+l
+clear
+l
+clear
+ll
+cear
+clear
+ls
+clear
+l
+clear
+cd gbv
+clear
+which nu
+exit
+clear
+exit
+tmux
+tmux ls
+clear
+tmux ls
+clear
+l
+clear
+nv
+nvim .tmux.conf
+cd .tmux/plugins/tpm/
+l
+nv
+bat README.md
+cargo install bat
+bat README.md
+clear
+bat README.md
+clear
+nv
+cd ~
+clear
+l
+clear
+nv
+tmux
+clear
+l
+clear
+nv
+exit
+nu
+exit
+clear
+exit
+clear
+l
+clea
+clear
+exit
+tmux
+clear
+exit
+clear
+tmux ls
+clear
+exit
+tmux
+exit
+nv
+cd .config/xfce4/terminal/
+nv
+clear
+cd
+clear
+l
+clear
+nv
+tmux
+clear
+tmux ls
+tmux a #
+tmux ls
+clear
+tmux new -s docker
+cd gbv
+cd GBV/GBV_Webstudio/
+celar
+clear
+l
+clear
+l
+nv
+clear
+l
+clear
+nv
+cd GBV/GBV_Webstudio/
+tmux new -s gbv
+cd Projects/Forks/dataCycle/
+l
+clear
+l | to json
+clear
+l
+./ltest.sh
+clear
+l
+nv
+clear
+reboot
+clear
+reboot
+exit
+clear
+clear
+clear
+l
+clear
+l
+clear
+l
+clear
+tmux ls
+clear
+tmux a gbv
+tmux a -s gb
+tmux a -s gbv
+l
+clear
+cargo remove zellij
+zellij ls
+clear
+cargo uninstall zellij
+clear
+l+
+l
+clear
+l
+ls -ahfl
+clear
+l
+ls -ahfl
+l subdir
+clear
+l
+clear
+l
+bv
+nv
+clear
+l
+clear
+l
+cd GBV/
+l
+clear
+l
+git clone git@github.com:GreatBigValue/documentation.git
+clear
+cd documentation/
+l
+clear
+mnl
+l
+touch README.md
+clrae
+lclear
+clear
+exit
+fzf
+clear
+("a", "b")
+("a", "b") | fzf
+clear
+["a", "b", "c"] | fzf
+["aasdf", "basdf", "caösldfk"] | fzf
+["aasdf", "basdf", "caösldfk"] | to bash |fzf
+["aasdf", "basdf", "caösldfk"] | to text |fzf
+["a", "b", "c"] | to json |fzf
+["a", "b", "c"] | to text | fzf | to json 
+["a", "b", "c"] | to text | fzf | to text
+["a", "b", "c"] | to text | fzf 
+clear
+l
+clear
+gzg
+clear
+fzf
+clear
+l
+l | fzf
+ls | name 
+clear
+nv
+exit
+ls | get name
+ls | get name | to text | fzf
+ls | where dir | to text | fzf
+ls | where dir
+ls | where type == dir
+ls | where type == dir | to text | fzf
+ls | where type == dir | get name | to text | fzf
+clear
+l
+clear
+l
+clea
+clear
+tmux
+exit
+tmux a -t gbv
+clear
+tmux a
+tmxu new -s scripts
+bash tmux new -s scripts
+clear
+cd /usr/bin
+l
+clear
+l
+clear
+nv
+l | count
+clear
+ls | where type == dir | get name | to text | fzf
+clear
+l
+tmux
+tmux ls
+clea
+clear
+cd Projects/linux-configs/
+l
+clear
+l
+clear
+l | small
+clear
+l
+clear
+bat
+bat updatefiles
+claer
+clear
+l
+clear
+l
+l | length
+clear
+l
+touch sync_nu_scripts.sh
+nv
+chmod sync_nu_scripts.sh +x
+chmod +x sync_nu_scripts.sh 
+l
+clear
+l
+nv
+./sync_nu_scripts.sh
+clear
+l
+clear
+exit
+nu
+l
+clear
+l
+nv
+./sync_nu_scripts.sh
+n
+nv
+./sync_nu_scripts.sh
+clear
+nb
+nv
+./sync_nu_scripts.sh
+clear
+nv
+./sync_nu_scripts.sh
+clear
+nv
+exit
+./sync_nu_scripts.sh
+clear
+n
+nv
+./sync_nu_scripts.sh
+clear
+l
+clear
+cd Projects/linux-configs/
+l
+clear
+l
+clear
+l
+mkdir nuscripts
+l
+clear
+cd nuscripts/
+l
+clear
+l
+clear
+l
+clear
+nv
+clear
+l
+clear
+l
+./testscript.sh
+chmod +x testscript.sh
+clear
+./testscript.sh
+clear
+..
+l
+clear
+l
+cd 
+cd -
+cd nuscripts/
+l
+clear
+l
+..
+./sync_nu_scripts.sh
+clear
+./sync_nu_scripts.sh
+clear
+l
+clear
+./sync_nu_scripts.sh
+clear
+l
+clear
+./sync_nu_scripts.sh
+clear
+./sync_nu_scripts.sh
+clear
+./sync_nu_scripts.sh
+clear
+l
+clear
+ls /usr/bin | get name == test*
+ls /usr/bin | where name == test*
+ls /usr/bin | where name == test
+ls /usr/bin | where name == testscript
+l nuscripts/
+ls /usr/bin | where name == testscript.sh
+./sync_nu_scripts.sh
+sudo ./sync_nu_scripts.sh
+which nu
+sudo ./sync_nu_scripts.sh
+clear
+ls /usr/bin | where name == testscript.sh
+clear
+testscript.sh 
+l
+testscript.sh 
+nv
+cd nuscripts/
+l
+clear
+l
+rm testscript.sh
+l
+..
+testscript.sh 
+clear
+bat /usr/bin/testscript.sh
+cd -
+clear
+touch testscript
+nv
+..
+testscript.sh 
+clear
+bat /usr/bin/testscript.sh
+bat /usr/bin/env nu
+clear
+nv
+rm /usr/bin/testscript.sh
+sudo rm /usr/bin/testscript.sh
+clear
+testscript.sh 
+clear
+nv
+..
+clear
+cd -
+cdler
+clear
+l
+./sync_nu_scripts.sh
+sudo ./sync_nu_scripts.sh
+clear
+testscript
+clear
+testscript
+testscript.sh
+clear
+sudo testscript
+cleat
+/usr/bin/testscript
+sudo chmod +x /usr/bin/testscript
+clear
+testscript 
+clear
+now 
+cler
+clear
+time now
+clear
+l
+clear
+nv
+cd nuscripts/
+nv
+exit
+clear
+l
+clear
+l
+clear
+ls | length
+l
+clear
+l
+clear
+l
+clear
+l
+./ltest.sh
+clear
+l
+rm ltest.sh
+clear
+l
+clear
+l
+l
+..
+l
+celar
+clear
+l
+nv
+clear
+l
+bat user-dirs.dirs
+tmux
+l
+clear
+cd GBV/GBV_Webstudio/l
+cd GBV/GBV_Webstudio/
+clear
+l
+clear
+l
+l
+clear
+l 
+but
+clear
+l 
+bat user-dirs.dirs
+nv
+tmux 
+clear
+ls
+l | to json
+ls | where type == dir
+ls | where type == dir | get name | to text | fzf
+exit
+nv
+clear
+l
+clear
+nv
+clear
+clear
+clear
+clear
+clear
+clear
+l
+clear
+l
+clear
+l
+clear
+ll
+clea
+clear
+l | length
+clear
+l
+clear
+mkdir testing
+cd testing/
+clear
+l
+clear
+l
+clear
+l
+clear
+cd
+clear
+l
+mkdir docker
+rm docker/
+l
+clea
+rclea
+clear
+cd Projects/
+l
+clear
+l
+touch docker
+cd docker
+cd docker/
+l
+rm docker
+mkdir docker/
+l
+clear
+cd dock
+cd docker/
+clear
+nv
+l
+..
+rm -rf docker/
+clear
+cd
+clear
+l
+celar
+clear
+l
+l
+touch docker_comp.sh
+bat sync_nu_scripts.sh
+date now
+clear
+l
+nv
+chmod +x docker_comp.sh
+clear
+./docker_comp.sh
+clear
+..
+l
+cd -
+nv
+./docker_comp.sh
+clear
+l
+clear
+cd testing/
+clear
+l
+clear
+./docker_comp.sh
+clear
+{<\n>    'GBV Webstudio' : '/home/julius/GBV/GBV_Webstudio',<\n>    'GBV Webcrawler': '/home/julius/GBV/GBV_Webcrawler_02',<\n>    'Datacycle Plain': '',<\n>} | transpose key value<\n>
+clear
+{<\n>    'GBV Webstudio' : '/home/julius/GBV/GBV_Webstudio',<\n>    'GBV Webcrawler': '/home/julius/GBV/GBV_Webcrawler_02',<\n>    'Datacycle Plain': '',<\n>} | transpose key value<\n>
+./docker_comp.sh
+clear
+cd 
+cd Projects/Forks/dataCycle/dataCycle-PLAIN/
+path
+path dirname
+clear
+cd 
+cd tet
+cd testing/
+l
+celar
+clear
+./docker_comp.sh
+clear
+l
+./docker_comp.sh
+clear
+tmux new -s Webstudio_docker
+tmxu ls
+clear
+tmux new-session webstudio_docker
+clear
+./docker_comp.sh
+clear
+l
+clear
+l
+./docker_comp.sh
+./
+./docker_comp.sh
+clear
+./docker_comp.sh
+clear
+./docker_comp.sh
+clear
+./docker_comp.sh
+tmux
+clear
+source ./docker_comp.sh
+clear
+l
+clear
+l
+clear
+cd -
+clear
+source docker_comp.sh
+clear
+cd -
+clear
+source docker_comp.sh
+clear
+cd -
+source docker_comp.sh
+clear
+cd -
+clear
+l
+clear
+source docker_comp.sh
+cd -
+l
+clear
+l
+souce docker_comp.sh
+source docker_comp.sh
+clear
+cd -
+clear
+l
+clear
+l
+clear
+l
+clear
+l
+clear
+. docker_comp.sh
+clear
+l
+clear
+source docker_comp.sh
+clear
+cd -
+celar
+pws
+pwd
+clear
+pwd
+clear
+pwd | to text
+clear
+source docker_comp.sh
+clear
+sudo docker ps
+docker ps
+clear
+dockdown
+clear
+ls /usr/bin/ | where name == docker*
+ls /usr/bin/ | where name == *docker*
+ls /usr/bin/ | where name == docker
+ls /usr/bin/ | where name == dockstop
+nv
+clear
+alias
+clear
+edital
+clear
+clear
+exit
+docker ps -a -q
+clear
+source docker_comp.sh
+clear
+l
+ls
+clear
+l
+clear
+source docker_comp.sh
+clear
+cd -
+clear
+l
+clear
+l
+source ./docker_comp.sh
+clear
+dockerstop
+dockstop
+clear
+exit
+loadal
+clear
+docker stop $(docker ps -a -q)
+docker ps -a -q | lines
+source ./docker_comp.sh
+clear
+source ./docker_comp.sh
+docker ps 
+docker ps -q
+clear
+source ./docker_comp.sh
+clear
+source ./docker_comp.sh
+clear
+source ./docker_comp.sh
+clear
+l
+celar
+clear
+doker ps
+clear
+docker ps
+clear
+docker ps -q
+clear
+nv
+nv
+./sync_nu_scripts.sh
+sudo ./sync_nu_scripts.sh
+clear
+mandoks
+mandocks
+clear
+l
+cd nuscripts/
+l
+chmod +x mandocks
+chmod +x testscript
+clear
+..
+clear
+./sync_nu_scripts.sh
+clear
+sudo ./sync_nu_scripts.sh
+clear
+mandocks
+clear
+mandocks
+clear
+l
+clear
+l
+docker ps
+clear
+mandocks
+clear
+docker ps
+clear
+nv
+clear
+l
+clear
+l
+l
+exit
+clear
+l
+clear
+l
+nmtui
+clear
+l
+clear
+mandocks 
+clear
+mandocks
+clear
+mandocks
+clear
+l
+clear
+l
+celar
+clear
+clear
+mandocks
+clear
+l
+clear
+nv
+clear
+l
+ls
+clear
+l
+time now
+now time
+clear
+time now
+date now
+clear
+date now
+acpi
+clear
+du
+clear
+cargo install dust
+cargo install du-dust
+clear
+l
+clear
+dust
+clear
+cd
+clear
+dust
+clear
+cd GBV/GBV_Webcrawler_02/
+clera
+clear
+dust
+..
+clear
+dust
+clear
+cargo install --git https://github.com/XAMPPRocky/tokei.git tokei
+clear
+clear
+cd GBV_Webstudio/
+tokei
+clear
+tokei
+clear
+cargo install bandwhich
+bandwhich
+sodo bandwhich
+clear
+sudo bandwhich
+clear
+sudo -s
+clear
+clear
+mandocks
+clear
+l
+cd 
+clear
+l | length
+clear
+l
+clear
+l
+clear
+l
+clear
+ll
+clear
+l
+clear
+htop
+ytop
+clear
+nmtui
+clear
+l
+clear
+nv
+clear
+l
+clear
+l
+clear
+l
+clear
+l | length
+nv
+clear
+l
+..
+l
+clear
+l
+cd documentation/
+l
+clear
+l
+nmtu
+nmtui
+clear
+cd ~/testing/
+clear
+l
+cl
+clear
+cl
+clear
+l
+clear
+fzf
+clear
+[a, b, s, c] | fzf
+[a, b, s, c] | to text | fzf
+clear
+l
+clear
+l
+clear
+l
+clear
+n
+nv
+clear
+l
+clear
+nv
+clear
+l
+clear
+l
+clear
+l
+nv
+l
+mv sync_nu_scripts.sh sync_nu_scripts.nu
+clear
+l
+clear
+l
+cd nuscripts/
+l
+..
+l
+clear
+./sync_nu_scripts.nu
+sudo ./sync_nu_scripts.nu
+clear
+l
+mandocks
+mandocks
+clear
+l
+clear
+clear
+l
+clear
+l
+clear
+l
+clear
+l
+clear
+l
+clear
+nv
+nv
+cd
+clear
+fzf
+cd .config/nushell/
+l
+clear
+l
+nv
+clear
+l
+clear
+clear
+l
+l
+clear
+nv
+clear
+l
+..
+l
+clear
+l | where name = nushell
+l | where name == nushell
+ckear
+clear
+l | where name == nushell
+cd nushell
+clear
+l
+ls
+l
+clear
+ls
+l
+clear
+l
+clear
+ll
+clear
+ls
+clear
+l
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+exit
+nv
+clear
+l
+clear
+exit
+clear
+l
+clear
+l
+shutdown
+systemctl shutdown
+clear
+ö
+clear
+l
+clear
+ls
+ls -a
+clear
+ls -a
+l
+clear
+l
+clear
+ls -al
+clear
+ls l
+clear
+ls -l
+clear
+nv
+clear
+hto
+l
+clear
+l
+clear
+bluetoothctl 
+nmtui
+clear
+l
+clear
+l
+clear
+nmtui
+clear
+tmux
+clera
+l
+clear
+tmux
+bluetoothctl  
+clear
+l
+clear
+l
+clear
+bsj
+clear
+ll
+clear
+l
+clear
+nmtui
+nv
+clear
+12 | into int
+clear
+"12W" | into int
+"12" | into int
+cllear
+cear
+clear
+l
+clear
+l
+[one two three] | to yaml
+clear
+[one,two,three] | to yaml
+[one,two,three] | to json
+clear
+l
+clear
+[[framework, language]; [Django, Python] [Lavarel, PHP]]<\n>| to json
+[[framework, language]; [Django, Python] [Lavarel, PHP]]<\n>| to json | table
+[[framework, language]; [Django, Python] [Lavarel, PHP]]<\n>| to json | select 1
+[[framework, language]; [Django, Python] [Lavarel, PHP]]<\n>| to json | get 1
+[[framework, language]; [Django, Python] [Lavarel, PHP]]<\n>| to json | select first
+clear
+clear[{name: 'Robert' age: 34 position: 'Designer'}<\n>     {name: 'Margaret' age: 30 position: 'Software Developer'}<\n>     {name: 'Natalie' age: 50 position: 'Accountant'}<\n>    ] | select name position
+[{name: 'Robert' age: 34 position: 'Designer'}<\n>     {name: 'Margaret' age: 30 position: 'Software Developer'}<\n>     {name: 'Natalie' age: 50 position: 'Accountant'}<\n>    ] | select name positionc
+[{name: 'Robert' age: 34 position: 'Designer'}<\n>     {name: 'Margaret' age: 30 position: 'Software Developer'}<\n>     {name: 'Natalie' age: 50 position: 'Accountant'}<\n>    ] | select name position
+clear
+[{name: 'Robert' age: 34 position: 'Designer'}<\n>     {name: 'Margaret' age: 30 position: 'Software Developer'}<\n>     {name: 'Natalie' age: 50 position: 'Accountant'}<\n>    ] | select name position
+clear
+[{name: 'Robert' age: 34 position: 'Designer'}<\n>     {name: 'Margaret' age: 30 position: 'Software Developer'}<\n>     {name: 'Natalie' age: 50 position: 'Accountant'}<\n>    ] | select name position
+cat /etc/shells
+clear
+$env | table -e
+clear
+l
+clear
+ls
+$env.config = {}
+ls
+clear
+$env.config.table.mode = basic  
+ls
+$env.config.table.mode = light
+ls
+$env.config.table.mode = dark
+$env.config.table.mode = compact
+ls
+clear
+l
+cd 
+cd .config/nushell/
+$env.config.table.mode = compact_double
+ls
+clear
+ls
+$env.config.table.mode = thin
+ls
+$env.config.table.mode = with_love
+ls
+$env.config.table.mode = reinforced
+ls
+$env.config.table.mode = heavy
+ls
+$env.config.table.mode = none
+l
+clear
+ls
+$env.config.table.mode = basic
+ls
+l
+clear
+ls
+ls
+cd
+ls
+clear
+l
+cd -
+clear
+l
+cd ~/GBV/GBV_Webstudio/
+l
+clear
+ls
+clear
+cd 
+cd testing/
+clear
+l
+clear
+ls
+clear
+source ~/.config/nushell/config.nu
+ls
+clear
+source ~/.config/nushell/config.nu
+ls
+clear
+source ~/.config/nushell/config.nu
+ls
+source ~/.config/nushell/config.nu
+ls
+clear
+dust 
+clear
+dust docker_comp.sh
+clear
+l
+clear
+exi
+texit
+exit
+ls
+clear
+source ~/.config/nushell/config.nu
+ls
+clear
+ls
+source ~/.config/nushell/config.nu
+ls
+clear
+source ~/.config/nushell/config.nu
+ls
+clear
+'Nushell 0.91' | parse '{shell} {version}'
+clear
+source ~/.config/nushell/config.nu
+ös
+ls
+clear
+ls
+source ~/.config/nushell/config.nu
+ls
+source ~/.config/nushell/config.nu
+ls
+source ~/.config/nushell/config.nu
+ls
+source ~/.config/nushell/config.nu
+ls
+clear
+ls
+source ~/.config/nushell/config.nu
+ls
+clear
+ls
+source ~/.config/nushell/config.nu
+ls
+source ~/.config/nushell/config.nu
+ls
+clear
+l
+clear
+ls
+source ~/.config/nushell/config.nu
+ls
+source ~/.config/nushell/config.nu
+ls
+clear
+source ~/.config/nushell/config.nu
+ls
+clear
+source ~/.config/nushell/config.nu
+ls
+clear
+source ~/.config/nushell/config.nu
+ls
+clear
+ls
+clear
+source ~/.config/nushell/config.nu
+ls
+l
+ls
+l | length
+clear
+ls
+l
+source ~/.config/nushell/config.nu
+ls
+clear
+ls
+source ~/.config/nushell/config.nu
+ls
+source ~/.config/nushell/config.nu
+ls
+clear
+tmux a #
+exit
+nv
+clear
+cd 
+cd testing/
+clear
+l
+clear
+git clone git@github.com:fdncred/nu_plugin_pnet.git
+cargo install nu_plugin_pnet/
+cd nu_plugin_pnet/
+l
+clear
+l
+cargo install Packet.lib
+nv
+cargo install src/main.rs
+clear
+l
+register Packet.lib
+..
+clear
+register nu_plugin_pnet/
+register nu_plugin_pnet/Packet.lib
+clear
+cd nu_plugin_pnet/
+cargo install --path .
+tree
+clear
+l
+clear
+cd nu_plugin_pnet/
+cargo install --path .
+l
+..
+rm -rf nu_plugin_pnet/
+clear
+cd
+git clone git@github.com:fdncred/nu_plugin_pnet.git
+rm -rf nu_plugin_pnet/
+cd .cargo/bin/
+git clone git@github.com:fdncred/nu_plugin_pnet.git
+cd nu_plugin_pnet/
+clear
+..
+l
+cd nu_plugin_pnet/
+clear
+cargo install --path .
+cargo install --path . --force
+..
+net
+cd -
+clear
+..
+l
+rm -rf nu_plugin_pnet/
+l
+,,
+cd
+clear
+cargo install nu_plugin_net
+cargo install zoxide --locked<\n>
+cargo install zoxide --locked<\n> -- force
+cargo install zoxide --locked --force
+clear
+net
+clear
+pnet
+clear
+history | get 20
+history | select 20
+clear
+history | first 20
+ls
+history | first 20
+cöear
+clear
+history | last 20
+nu_plugin_net 
+clear
+nu_plugin_net 
+clear
+l
+clear
+ls
+clear
+lls
+slc
+a
+sl
+clear
+slc
+cleaqr
+clear
+l
+clear
+cd testing/
+l
+clear
+touch bash_pro_shop.sh
+nv
+chmod +x bash_pro_shop.sh
+clear
+nv
+./bash_pro_shop.sh
+clear
+nv
+./bash_pro_shop.sh
+nv
+./bash_pro_shop.sh
+clear
+l
+./bash_pro_shop.sh
+clear
+nv
+day
+clear
+3.12day
+3.12day lns
+3.12day | to ns
+clear
+30day / 1ns
+clear
+for i in 1..3
+clear
+command
+clear
+{name: Julius rank: 10}
+{name: Julius rank: 10} | insert age 17
+clear
+{name: Julius rank: 10} | insert age 17 | transpose key value
+{name: Julius rank: 10} | insert age 17 | transpose key value nigga
+{name: Julius rank: 10} | insert age 17 | transpose key value 
+clear
+{name: Julius rank: 10} | insert age 17 | transpose key value 
+nvim ~/.config/nushell/config.nu
+source ~/.config/nushell/config.nu
+ls
+nvim ~/.config/nushell/config.nu
+source ~/.config/nushell/config.nu
+ls
+nvim ~/.config/nushell/config.nu
+source ~/.config/nushell/config.nu
+ls
+nvim ~/.config/nushell/config.nu
+source ~/.config/nushell/config.nu
+ls
+nvim ~/.config/nushell/config.nu
+source ~/.config/nushell/config.nu
+ls
+clear
+ls
+nvim ~/.config/nushell/config.nu
+source ~/.config/nushell/config.nu
+ls
+nv
+source ~/.config/nushell/config.nu
+nvim ~/.config/nushell/config.nu
+source ~/.config/nushell/config.nu
+ls
+nvim ~/.config/nushell/config.nu
+source ~/.config/nushell/config.nu
+ls
+clear
+shutdown
+clear
+exit
+cd .config/nushell/
+l
+clear
+l
+nv
+exit
+clear
+l
+clear
+exit
+clear
+l
+clear
+ls
+cd
+clear
+ls
+clear
+bash ls
+clear
+l
+clear
+l
+clear
+l
+nv
+./bash_pro_shop.sh
+nv
+nvim docker_comp.sh
+clear
+l
+nv
+clear
+l
+clear
+l
+clear
+l
+clear
+touch htl_new_day
+pwd
+clear
+pwd | get last
+clear
+nv
+clear
+l
+chmod u+x htl_new_day
+l
+clear
+l
+clear
+l
+./htl_new_day
+clear
+nv
+l
+mv htl_new_day htl_new_day.sh
+clear
+nv
+./htl_new_day
+./htl_new_day.sh
+clear
+nv
+./htl_new_day.sh
+nv
+./htl_new_day.sh
+nv
+./htl_new_day.sh
+clear
+nv
+./htl_new_day.sh
+clear
+nv
+./htl_new_day.sh
+nv
+./htl_new_day.sh
+nv
+./htl_new_day.sh
+nv
+./htl_new_day.sh
+clear
+nv
+./htl_new_day.sh
+nv
+./htl_new_day.sh
+clear
+nv
+./htl_new_day.sh
+nv
+./htl_new_day.sh
+nv
+./htl_new_day.sh
+source ./htl_new_day.sh
+nv
+source ./htl_new_day.sh
+nv
+./htl_new_day.sh
+clear
+nv
+source ./htl_new_day.sh
+nv
+source ./htl_new_day.sh
+nv
+source ./htl_new_day.sh
+clear
+nv
+source ./htl_new_day.sh
+clear
+nv
+./htl_new_day.sh
+nv
+./htl_new_day.sh
+nv
+./htl_new_day.sh
+clear
+nv
+./htl_new_day.sh
+clear
+nv
+./htl_new_day.sh
+clear
+nv
+l
+clear
+nv
+source ./htl_new_day.sh
+nv
+./htl_new_day.sh
+nv
+./htl_new_day.sh
+nv
+./htl_new_day.sh
+nv
+./htl_new_day.sh
+clear
+nv
+./htl_new_day.sh
+clear
+nv
+clear
+l
+clear
+"Today" | into datetime
+date now
+date now | raw+
+date now | raw
+clear
+> date now | format date "%Y-%m-%d %H:%M:%S"<\n>
+date now | format date "%Y-%m-%d %H:%M:%S"<\n>
+date now | format date "%Y-%m-%d"<\n>
+clear
+./htl_new_day.sh
+clear
+l
+clear
+./htl_new_day.sh
+clear
+source ./htl_new_day.sh
+l
+rm 2024-03-19_testing_julius
+clear
+source ./htl_new_day.sh
+l
+rm 2024-03-19_testing_julius.md
+clear
+l
+"2023-04-19" | into datetime
+"2023-04-19" | into datetime | format date
+tmux a #
+clear
+ls
+clear
+l
+clear
+cd htl-villach/
+l
+cd nts1/
+l
+bat 20230926.md
+tmux a #
+bat 20230926.md
+clear
+./htl_new_day.sh
+l
+nv
+bat 2024-03-19_testing_julius.md
+clear
+rm 2024-03-19_testing_julius.md
+./htl_new_day.sh
+clear
+l
+clear
+./htl_new_day.sh
+l
+rm `2024-03-19_testing_julius testet heute.md`
+./htl_new_day.sh
+l
+clear
+rm 2024-03-19_testing_lksdf_asdlkfj.md
+l
+clear
+l
+clear
+./htl_new_day.sh
+l
+clear
+bat `2024-03-19_testing_router_rip ii.md`l
+l
+clear
+rm `2024-03-19_testing_router_rip ii.md`
+./htl_new_day.sh
+l
+./htl_new_day.sh
+l
+./htl_new_day.sh
+l
+clear
+l
+rm 2024-03-19_testing_alksdfj.md
+rm `2024-03-19_testing_ii_3 djf wwdölr 12 sdf.md`
+rm `2024-03-19_testing_ii_3_djf wwdölr 12 sdf.md`
+rm `2024-03-19_testing_router_rip 2.md`
+clear
+./htl_new_day.sh
+l
+clear
+l
+rm 2024-03-19_testing_aksdj_adf_kj23_wer__dskf.md
+./htl_new_day.sh
+l
+nv
+clar
+clear
+l
+rm 2024-03-19__testing__router_rip_eh_03.md
+clear
+./htl_new_day.sh
+l
+clear
+nv
+clear
+cd ~/Projects/linux-configs/
+l
+clear
+cd nuscripts/
+l
+clear
+touch htl_new_day
+nv
+l
+cler
+clear
+chmod +x htl_new_day
+clear
+nv
+..
+./sync_nu_scripts.nu
+sudo ./sync_nu_scripts.nu
+clear
+l
+clear
+htl_new_day 
+l
+bat 2024-03-19__linux-configs__config_logs_i.md
+clear
+rm 2024-03-19__linux-configs__config_logs_i.md
+clear
+cd -
+cd ~/testing/
+clear
+nv
+clear
+l
+rm 2024-03-19__testing__router_rip_ii.md
+cl
+clear
+l
+cal
+clear
+exit
+mandocks
+clear
+l
+clear
+l
+clear
+l
+clear
+l
+clear
+andocks
+mandocks 
+clear
+vol 0%
+exit
+tmux a #
+clear
+l
+clear
+clear
+cd 
+cd htl-villach/
+l
+clear
+l
+cd itsy
+l
+clear
+ls | histogram
+clear
+[1, 2, 3, 1, 2, 1] | histogram
+clear
+l
+clear
+l
+20240314.md | histogram
+clear
+./20240312.md | to text | histogram
+clear
+20240314.md | to json
+clear
+.
+..
+cear
+clear
+l
+clear
+"2021-10-22 20:00:12 +01:00" | date humanize
+clear
+"255,255,255" | to hex
+clear
+[name: julius, age: 17] | to md
+{name: Julius rank: 10} | insert age 17 | transpose key value 
+{name: Julius, age: 17} | transpose
+{name: Julius, age: 17} | transpose key value
+{name: Julius, age: 17} | transpose key value | to md
+{name: Julius, age: 17} | transpose index key value | to md
+{name: Julius, age: 17} | enumerate | transpose key value | to md
+{name: Julius, age: 17} | transpose index key value | to md
+{name: Julius, age: 17} | transpose key value | to md
+clear
+swq 1 10
+seq q 10
+seq 1 10
+clear
+seq 1 0.05 2
+clear
+seq 1 0.05 2 | to string
+(seq 1 0.05 2) | to string
+seq 1 0.05 2 | str join ''
+seq 1 0.05 2 | str join ' | '
+clear
+cal --full-year 2024
+clear
+cal
+clear
+cal --week-start now
+clear
+cal --week-start monday
+cal --week-start 'Monday'
+clear
+mktemp testtemp.tmp
+clear
+gstat 
+clear
+nu --version
+clear
+gstat ../
+clear
+cargo install gstat
+clear
+neofetch
+clear
+clear
+ls | grid
+clear
+'U29tZSBEYXRh' | decode base64
+clear
+'U29tZSBEYXRh' | decode base64 --binary
+clear
+l
+clear
+bat ~/.bashrc
+clear
+nvim ~/.bashrc
+clear
+which nu
+tmux a #
+tmux new
+tmux ls
+clear
+cd ~/.config/nushell/
+nv
+..
+cd .tmux/
+l
+cd plugins/
+...
+clear
+nvim .tmux.conf
+exit
+clear
+tmux
+tmux ls
+clear
+exit
+clear
+tmux ls
+clear
+l
+clear
+l
+cd sew2/
+l
+clear
+l
+htl_new_day 
+clear
+l
+clear
+l
+..
+l
+clear
+l
+cd sew2/
+ö
+l
+clear
+l
+htl_new_day 
+l
+clear
+l
+nv
+clear
+l
+..
+l
+clear
+l
+clear
+l
+nv
+clear
+..
+clear
+l
+clear
+cd htl-villach/
+l
+cear
+clear
+l
+clear
+whoami
+clear
+random bool
+clear
+random bool
+clear
+random uuid
+clear
+enter
+l
+exit
+clear
+l
+celar
+clear
+du
+clear
+glob
+clear
+ps
+clear
+ps | where cpu
+clear
+htop
+clear
+mybat
+clear
+ls --expand
+clear
+ls -e
+clear
+ls | table
+ls | table -e
+ls | table --expand-deep 10
+clear
+ls | table -c
+nmtui
+clear
+clear
+pip install webuntis-cli
+pip install webuntis-cli --break-system-packages
+webuntis-cli 
+clear
+cd
+webuntis-cli 
+cclear
+clear
+cd -
+clear
+l
+webuntis-cli 
+webuntis-cli --help
+clear
+pip remove webuntis-cli
+pip uninstall webuntis-cli
+pip uninstall webuntis-cli --break-system-packages
+clear
+vol 0%
+exit
+vol 0%
+bash vol 0%
+clear
+mandocks
+clear
+mandocks
+clear
+nmtui+
+nmtui
+clear
+date now 
+clear
+l
+clear
+nmtui
+clear
+l
+clear
+l
+clera
+clear
+l
+l | to md
+clear
+l | to md
+nvim test.md
+clear
+l
+clear
+nv
+clear
+clear
+exit
+l
+clear
+l
+clear
+zoxide 
+clear
+cargo remove zoxide
+cargo uninstall zoxide
+clear
+zoxide bash_pro_shop.sh
+clear
+zoxide -h
+clear
+..
+sudo apt remove zoxide
+clear
+zoxide
+clear
+zoxide 
+clear
+exit
+$nu.env-path
+clear
+$nu.env-path
+cd .config/nushell/
+nv
+source env.nu
+clear
+$nu.config-path
+nv
+clear
+source config.nu
+z gbv
+clear
+exit
+zi
+./updatefiles.sh
+nv
+./updatefiles.sh
+nv
+./upda
