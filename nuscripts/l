@@ -1,0 +1,3 @@
+#! /usr/bin/env nu
+
+ls -al | sort-by type
