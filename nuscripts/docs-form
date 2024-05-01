@@ -1,0 +1,12 @@
+#! /usr/bin/env nu
+
+let links = {
+    'PHP' : 'https://www.php.net/manual/en/',
+    'Ruby' : 'https://ruby-doc.org/3.3.1/',
+    'Laravel 10' : 'https://laravel.com/docs/10.x/',
+    'Livewire 3' : 'https://livewire.laravel.com/docs/quickstart',
+    'Nushell' : 'https://www.nushell.sh/commands/',
+} | transpose key value
+
+let selected_link = $links | get key | to text | fzf
+xdg-open ($links | where key == $selected_link | get value | to text)

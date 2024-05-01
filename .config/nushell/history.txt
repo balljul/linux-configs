@@ -2269,3 +2269,4711 @@ nv
 ./updatefiles.sh
 nv
 ./upda
+./updatefiles.sh
+clear
+l
+clear
+nv
+clear
+l
+nv
+cd gbv
+clear
+l
+clear
+l
+clear
+l
+cd confi
+clear
+l
+clear
+l
+exit
+clear
+l+
+ceĺear
+clear
+l
+clear
+tmux a
+clear
+tmux new -s htl
+tmux a
+clear
+cat .tmux.conf
+nv
+clear
+l
+clear
+tmux a
+tmux new -s htl
+clear
+l
+which nu
+nvim .tmux.conf
+tmux new -s htl
+which nu
+which ls
+clear
+which nu
+which nmtui
+clear
+which nu
+exit
+tmux new -s htl
+chsh
+clear
+$SHELL
+clear
+echo $SHELL
+$env.shell
+clear
+$env.SHELL
+clear
+tmux ls
+nvim .tmux.conf
+tmxu a
+clear
+tmxu a
+tmus a
+tmux a
+clear
+tmux ls
+clear
+tmux new -s htl
+65;7006;1c
+tmxu ls
+tmux ls
+clear
+tmux new -s htl
+clera
+clear
+nvim .tmux.conf
+exit
+tmux new -s htl
+tmxu new -s htl
+clear
+tmux new -s htl
+clera
+clear
+nvim .tmux.conf
+tmxu new -s htl
+clear
+l
+clear
+l
+clear
+kill
+exit
+tmux new -s htl
+clear
+l
+clear
+tmux s
+clear
+bat .tmux.conf
+clear
+l
+clear
+tmux new -s htl
+tmux a
+tmux new -s htl
+tmux new -s docker
+nvim .tmux.conf
+clear
+tmux ls
+clear
+clear
+l
+clear
+cd tmp
+clear
+l
+touch fastapi.tmp
+clear
+touch fastapi.py
+nvim fastapi.py
+uvicorn main:app --reload
+nv
+clear
+l
+clear
+..
+cd htl
+cd sewMa
+l
+clear
+touch 2023xx.py
+nvim 2023xx.py
+clear
+uvicorn 2023xx:app --reload
+clear
+exit
+clear
+cd tmp
+clear
+uvicorn fastapi:app --reload
+cöear
+exit
+uvicorn 2023xx:app --reload
+clear
+nvim
+exit
+tmux a
+exit
+clear
+tmux a
+cler
+exit
+tmux a -t htl
+clear
+l
+clear
+tmux a
+clear
+cd sewm
+clear
+nv
+clear
+l
+fastapi/
+l
+bat main.py
+..
+clear
+l
+mv 2023xx.py fastapi_FINSIHED_.py
+clear
+l
+bat fastapi_FINSIHED_.py
+clear
+l
+clear
+l
+clera
+clear
+postman
+clear
+exit
+tmux new -s docker
+clear
+l
+clear
+tmux ls
+clear
+exit
+clear
+ls
+clear
+cd sewm
+clear
+ls
+nmtui
+clear
+exit
+tmux ls
+clear
+celar
+clear
+uvicorn 2023xx:app --reload
+clear
+mandb
+clear
+l
+clear
+cd gbb
+cdstud
+cd stud
+clear
+l
+cllear
+ll
+clear
+l
+clear
+tmxu new s htl
+clear
+l
+clear
+tmux new -s htl
+clear
+mabt
+clear
+myba
+clear
+cd thl
+clear
+cd htl
+clear
+l
+clear
+tmux new -s general
+clear
+l
+clear
+cd GBV/
+cd stud
+tmux new -s gbv
+clear
+clear
+l
+nv
+lcear
+clear
+,
+l
+clear
+l
+clear
+mandocks
+clear
+nmtui
+cd english/
+l
+clear
+nv
+htl_new_day 
+tmux new -s docker
+clear
+cd event
+clear
+l
+clear
+l
+clear
+ls
+clear
+l
+nv
+clear
+tmux new -s eventman
+clear
+cd lin
+clear
+nv
+clear
+./sync_nu_scripts.nu
+clear
+sudo ./sync_nu_scripts.nu
+clear
+l
+clear
+l
+mandocks
+mandocks 
+nvim
+nv
+./sync_nu_scripts.nu
+sudo ./sync_nu_scripts.nu
+clear
+l
+clear
+mandocks
+clear
+l
+clear
+mandock
+mandocks 
+clear
+docker compose exec eventmanager_app bash
+celar
+clear
+nv
+mandocks
+clear
+docker compose up --build
+cd event
+cllear
+clear
+nmtui
+l | sort-by type
+l | select name type |sort-by type
+clear
+l | sort-by type
+clear
+ls 
+clear
+l
+clear
+l
+clear
+cd .config/nushell/
+l
+l | sort-by type
+clear
+l
+clear
+source $env.config
+clear
+soruce ~/.config/nushell/config.nu
+source ~/.config/nushell/config.nu
+clear
+l
+clear
+source ~/.config/nushell/config.nu
+clear
+l
+which l
+clear
+nv
+exit
+l
+clear
+nv
+sudo ./sync_nu_scripts.nu
+l
+which l
+source ~/.config/nushell/config.nu
+l
+clear
+which l
+source ~/.config/nushell/env.nu
+l
+clear
+which l
+clear
+cd .config/nushell/
+source ~/.config/nushell/config.nu.nu
+source ~/.config/nushell/config.nu
+clear
+l
+clear
+which l
+clear
+l
+clear
+sudo l
+clear
+which l
+clear
+l
+chmod +x nuscripts/l
+clear
+sudo ./sync_nu_scripts.nu
+clear
+l
+clear
+cd configs
+clea
+clear
+l
+cdi
+exit
+l
+clear
+which l
+clear
+l
+clear
+source ~/.config/nushell/config.nu
+source ~/.config/nushell/
+source ~/.config/nushell/env.nu
+l
+clear
+which l
+clear
+l
+clear
+cat /usr/bin/l
+clear
+bat /usr/bin/env nu
+bat /usr/bin/env
+clear
+l
+bat /usr/bin/l
+clear
+/usr/bin/l
+clear
+l
+clear
+l
+clear
+docker compose up --build
+clear
+l
+clear
+nv
+clear
+..
+clear
+l
+clear
+nv
+clear
+clear
+cd itp2/
+clear
+htl_new_day 
+code .
+exit
+clear
+$env
+clear
+exit
+nvim 2024-03-21__itp2__controlling.md
+exit
+tmux new -s configs
+tmux ls
+clear
+cd htl
+clea
+clear
+l
+clear
+l
+exit
+tmux new -s htl
+clear
+cd linux
+clear
+l
+exit
+tmux new -s configs
+clear
+cd event
+l
+clear
+exit
+tmux new -s eventmanager
+clear
+exit
+tmux new -s docker
+clear
+cd stud
+clear
+l
+clear
+mybat
+exit
+htop
+exit
+tmux new -s gbv
+clear
+exit
+clear
+clear
+l
+which l
+clear
+l
+nmtui
+clear
+l
+clear
+lü
+clear
+l
+clear
+l
+cd nwtk/
+l
+clear
+htl_new_day 
+nvim 
+l
+bat nigga.txt
+clear
+l | where name == nigga.txt
+clear
+l
+lclear
+clear
+ls
+clear
+l | where name
+clear
+l | where nigga.txt
+clear
+l
+clear
+man dig
+dig -b www.htl-villach.at
+man dig
+dig -h
+clear
+l
+clear
+pwd
+clear
+l
+clear
+l
+clear
+l
+clear
+bat Session.vim
+clear
+man dig
+clear
+cler
+clear
+nmtui
+cat /etc/hosts
+clear
+nmcli
+clear
+l
+clear
+nmcli
+man nmcli
+clear
+cd /etc
+l
+cat resolv.conf
+clear
+cd
+celar
+clear
+l
+clear
+l
+clear
+l
+clear
+cd /etc/
+l
+clear
+..
+clear
+bat /etc/resolv.conf
+clear
+exit
+clear
+l
+clear
+bash
+clear
+bash
+ls
+fzf
+clear
+l
+fzf
+cd /var/mail/
+l
+clear
+l
+clear
+l
+clear
+cd /var/mail/
+l
+celar
+clear
+l
+clear
+l
+clear
+cd
+clear
+exit
+clear
+l
+clear
+nslookup 
+clear
+man nslookup
+host orf.at
+nslookup 
+clear -x
+clear
+man nslookup
+lsserver orf.at
+man nslookup
+lserver orf.at
+clear
+server orf.at
+claer
+clear
+man nslookup
+orf.at domain
+clear
+man nslookup
+clear
+l
+exit
+clear
+nv
+clear
+l
+clear
+man dig
+dnsutils
+clear
+sudo apt install dnsutils
+clear
+dnsutils
+clear
+sudo apt install dnsutils
+clear
+apt remove dnsutils
+clear
+sudo apt remove dnsutils
+dnslookup
+clear
+nslookup
+clear
+man dig
+dig
+clear
+dig
+clear
+dig
+dig ww.burger.com
+clear
+l
+clear
+man dig
+clear
+docker run -it ubuntu
+clear
+docker ps
+clear
+docker run -it ubuntu
+clear
+dig @dns4.pair.com www.burger.com
+dig www.juliusball.com
+dig @dns4.pair.com www.juliusball.com
+clear
+l
+clear
+nvim
+nv
+claer
+clear
+l
+clear
+..
+clear
+exit
+l
+netcat
+clear
+netcat
+man netcat
+clear
+l
+cd vendor/
+l
+l | length 
+clear
+l
+..
+clear
+l
+date now | date to-table
+celar
+clear
+is-admin
+clear
+su
+clear
+which is-admin
+clear
+1 | inc
+clear
+decode base64 "Nigger"
+clear
+l
+clear
+l
+..
+l
+cd event
+clear
+l
+cd .git
+l
+..
+clear
+l
+cd config
+l
+..
+clear
+l
+clear
+l
+nv
+nv
+clear
+l
+clear
+l
+nv
+clear
+l
+nv
+clear
+n
+nv
+cöear
+clear
+l
+clear
+bat .env
+ckear
+clear
+l
+clear
+l
+clear
+l
+clear
+l
+mandocks
+clear
+l
+clear
+nv
+clear
+clea
+clear
+l
+clear
+l
+clear
+l
+celar
+clear
+docker compose exec app bash
+cd stud
+clear
+docker compose exec app bash
+clear
+exit
+mandocks 
+clear
+mandocks 
+clear
+mandocks
+clear
+l
+clear
+l
+clear
+l
+cearl
+clear
+docker compose exec eventmanager_app bash
+cd event
+clear
+docker compose exec eventmanager_app bash
+clear
+nv
+docker compose exec eventmanager_app bash
+clear
+docker ps
+clear
+cd stud
+clear
+cd database/migrations/
+l
+clear
+cd event
+cd database/migrations/
+l
+clear
+l
+chmod +wr *
+chmod +wr *_create_*
+sudo chmod +wr *_create_*
+clear
+l
+chmod -x *
+sudo chmod -x *
+l
+clear
+l
+clear
+ls
+clear
+ls
+clear
+l
+clear
+l
+clear
+l
+clear
+exit
+clear
+nv
+l
+clear
+nv
+cd database/migrations/
+l
+sudo chmod +rw *
+clear
+l
+sudo chmod a+rw *
+l
+clear
+...
+clear
+n
+clear
+docker compose exec eventmanager_app bash
+clear
+mandock
+mandocks 
+clear
+l
+clear
+nv
+clea
+clear
+docker
+clear
+docker
+clear
+docker compose up
+clear
+mandocks
+docker compose exec eventmanager_app bash
+docker compose exec eventmanager_db bash
+docker compose down
+clear
+docker ps
+clear
+nv
+docker compose up -d
+docker ps
+clear
+docker compose exec eventmanager_app bash
+docker compose exec eventmanager_db bash
+nv
+docker ps
+docker compose exec eventmanager_app bash
+docker ps
+clear
+l
+clear
+docker compose down
+docker ps
+clear
+clear
+tmux new -s general
+l
+clear
+mandocks
+docker ps
+clear
+docker compose exec eventmanager_app bash
+cd even
+clear
+docker compose exec eventmanager_app bash
+clear
+l
+clear
+mandocks
+mandocks 
+mandocks
+nv
+clear
+git checkout main
+git pull
+clear
+l
+clear
+l
+clear
+nv
+clear
+l
+clear
+nv
+sudo chmod a+rw ./database/migrations/2024_03_21_193055_update_users_table.php
+clear
+clea
+cd event
+clear
+l
+clear
+cd app/Models/
+l
+celar
+clear
+ls
+l
+clear
+l
+sudo chmod a+rw *
+clear
+l
+sudo chmod a-x *
+clear
+l
+clear
+exit
+nv
+clear
+l
+sudo chmod a-x ./database/seeders/*
+clear
+sudo chmod a+rw ./database/seeders/*
+clear
+l ./database/seeders/
+ls ./database/seeders/
+ls -al ./database/seeders/
+clear
+nv
+clear
+l
+clear
+docker compose exec eventmanager_app bash
+clear
+l
+clear
+mandocks
+clear
+l
+clear
+nv
+clear
+l
+clear
+n
+clear
+l
+clear
+l
+clear
+l
+clear
+l
+clear
+l
+clear
+docker ps
+clear
+mandocks
+clear
+l
+clear
+nmtui
+clear
+exit
+docker compose exec eventmanager_app bash
+sudo chmod a+rw ./database/seeders/*
+clear
+docker compose exec eventmanager_app bash
+clear
+sudo chmod a-x ./database/factories/*
+sudo chmod a+rw ./database/factories/*
+clear
+docker compose exec eventmanager_app bash
+sudo chmod a+rw ./database/factories/*
+sudo chmod a-x ./database/factories/*
+clear
+l
+clear
+l
+cd syte
+clear
+l
+clear
+l
+clear
+l
+cd arduino/
+l
+claer
+clear
+l
+touch eh02.ino
+bat eh01/
+rm eh02.ino
+cp eh01/ eh02
+cp --recursive eh01/ eh02
+cler
+clear
+cd eh02/
+l
+clear
+nv
+clear
+l
+cd cheatsheets/
+l
+clear
+bat arduino-cli.md
+ard board list
+arduino-cli 
+clear
+arduino-cli board list
+arduino-cli compile -b arduino:avr:nano ./eh02.ino
+nv
+arduino-cli compile -b arduino:avr:nano ./eh02.ino
+arduino-cli compile -b arduino:avr:mega ./eh02.ino
+arduino-cli upload -v -p /dev/ttyACM0 ./eh02.ino
+nv
+arduino-cli compile -b arduino:avr:mega ./eh02.ino
+arduino-cli upload -v -p /dev/ttyACM0 ./eh02.ino
+nv
+arduino-cli compile -b arduino:avr:mega ./eh02.ino
+arduino-cli upload -v -p /dev/ttyACM0 ./eh02.ino
+nv
+arduino-cli compile -b arduino:avr:mega ./eh02.ino
+arduino-cli upload -v -p /dev/ttyACM0 ./eh02.ino
+nv
+arduino-cli compile -b arduino:avr:mega ./eh02.ino
+arduino-cli upload -v -p /dev/ttyACM0 ./eh02.ino
+nv
+arduino-cli compile -b arduino:avr:mega ./eh02.ino
+arduino-cli upload -v -p /dev/ttyACM0 ./eh02.ino
+nv
+arduino-cli compile -b arduino:avr:mega ./eh02.ino
+arduino-cli upload -v -p /dev/ttyACM0 ./eh02.ino
+nv
+arduino-cli compile -b arduino:avr:mega ./eh02.ino
+arduino-cli upload -v -p /dev/ttyACM0 ./eh02.ino
+clear
+l
+clear
+l
+clear
+l
+exit
+clear
+cd stud
+clear
+cd event
+clea
+rl
+clear
+cd public/
+l
+clear
+l
+clear
+cd public/
+l
+clear
+cp --recursive assets/ ~/Projects/Eventmanager/public/
+clear
+l
+clear
+exit
+exit
+docker compose exec eventmanager_app bash
+clear
+sudo chmod a-rw ./app/Livewire/*
+sudo chmod a+rw ./app/Livewire/*
+clear
+sudo chmod a+rw ./resources/views/livewire/*
+clear
+docker compose exec eventmanager_app bash
+sudo chmod a+rw ./app/Livewire/*
+sudo chmod a+rw ./resources/views/livewire/*
+clear
+nv
+git status
+clear
+l
+clear
+l
+clear
+...
+clear
+l
+clear
+htl_new_day 
+nvim
+bat .gitignore
+clear
+l
+cp .env .env.development
+clear
+l
+celar
+l
+clear
+l
+clear
+l
+clear
+l
+clear
+l
+clear
+l
+git status
+clear
+nv
+l
+cd docker
+l
+clear
+..
+clear
+tmux a
+clear
+cd plain
+clear
+l
+bat .dockerignore
+l
+celar
+l
+clear
+l
+cd docker
+l
+clear
+l
+l
+clear
+mv docker-compose.yml ./docker/
+l
+docker compose up
+cd docker/
+clear
+mv docker-compose.yml ../
+clear
+..
+clear
+l
+bat Dockerfile
+clear
+l
+clear
+l
+clear
+git checkout main
+clear
+l
+clear
+git status
+clear
+git pull
+clear
+l
+clear
+nv
+clear
+nv
+clear
+mandocks
+mandocks 
+bluetoothctl  
+exit
+clear
+mandocks
+bash
+exit
+docker compose up
+clear
+l
+clear
+l
+clear
+ls
+clear
+docker ps
+clear
+mandocks 
+clearmandocks
+clear; mandocks 
+clear
+l
+clear
+l
+clear
+nmtui
+exi
+exit
+l
+clear
+tmux new -s testing
+exit
+cd test
+clear
+l
+celar
+clear
+l
+rails run
+clear
+l
+clear
+cd testing
+l
+clear
+l
+cdi
+clear
+l
+clear
+l
+clear
+mandocks
+clear
+docker ps
+clear
+l
+clear
+mandocks
+docker ps
+clear
+nmtui
+exit
+l
+clear
+sudo chmod a+rw ./app/Interfaces/*
+sudo chmod a+rw ./app/Repositories/*
+clear
+l
+clear
+l
+clear
+nv
+cd ap
+c d-
+clear
+cd -
+clear
+cd app/
+l
+clear
+cd Interfaces/
+l
+clear
+l
+..
+clear
+cd Repositories/
+l
+...
+clear
+docker compose down
+k
+clear
+l
+clear
+cd event
+clear
+l
+cd app/Interfaces/
+l
+clear
+l
+..
+cd inter
+l
+clear
+l
+clear
+l
+clear
+nv
+l
+clear
+nv
+clear
+l
+clear
+nmtui
+clear
+clear
+l
+nv
+l
+..
+cd Repositories/
+l
+clear
+l
+chmod a+rw DepartmentRepository.php
+l
+clear
+l
+clear
+nv
+clear
+exit
+clear
+cd event
+clear
+docker compose exec eventmanager_app bash
+sudo chmod a+rw ./app/Livewire/*
+clear
+sudo chmod a+rw ./resources/views/livewire/*
+clear
+l
+clear
+cd resources/
+l
+cd views/livewire/
+l
+clear
+l
+cd auth/
+l
+chmod a+rw ./*
+...
+..
+cd app/Livewire/
+l
+cd Auth/
+l
+clear
+chmod a+rw ./*
+l
+sudo chmod a+rw ./*
+clear
+nv
+clear
+l
+clear
+nmtui
+exit
+docker compose exec eventmanager_app bash
+clear
+docker compose exec eventmanager_app bash
+...
+clear
+cd middle
+l
+clear
+l
+.
+clear
+l
+clear..
+clear
+..
+clear
+l
+cd app/Http/
+l
+clear
+cd Middleware/
+lc
+earl
+clear
+l
+sudo chmod a-x ./*
+sudo chmod a+rw ./*
+clear
+l
+clear
+l
+tmux new -s datax
+nv
+docker compose up
+docker compose exec eventmanager_app bash
+maodkc
+mandocks
+clear
+l
+clear
+clear
+l
+clear
+mando ks
+cd stud
+clear
+l
+clear
+l
+mandocks 
+clear
+clear
+cd event
+clear
+l
+clear
+l
+clear
+nv
+clear
+l
+clear
+l
+clear
+git pull
+clear
+git staus
+git status
+clear
+git merge main
+git status
+nv
+clear
+nv
+git pull
+git checkout main
+git pull
+clear
+git pull -a
+clear
+l
+clear
+nv
+git checkout main
+git pull
+clear
+clear
+mandocks
+docker compose down
+cd stud
+clera
+l
+docker compose exec app bash
+clear
+cd stud
+clear
+l
+docks ps
+docker ps
+clear
+docker compose exec app bash
+clear
+l
+clear
+git status
+git checkout feature/all-lead-view
+nvim .gitignore
+clear
+l
+git status
+git stash
+git status
+rm Session.vim
+git status
+clear
+git checkout feature/all-lead-view
+git checkout feature/all-leads-view
+clear
+git status
+git merge main
+git status
+exit
+nv
+clear
+l
+clear
+l
+clear
+l
+clear
+docker run -it ubuntu
+clear
+l
+clear
+tmux a
+clear
+l
+clear
+cd rails
+l
+clear
+rails run
+bundle install
+bash
+l
+clear
+l
+clear
+l
+clear
+ls
+clear
+rails run
+l
+gem install importmap-rails
+sudo gem install importmap-rails
+rails run
+clear
+l
+clear
+gem install bundle
+sudo gem install bundle
+bundle install
+clear
+l
+rails bundle install
+clear
+ls
+clear
+gem install bundler
+sudo gem install bundler
+clear
+bundle install
+clear
+sudo bundle install 
+clear
+l
+clear
+l
+cd vendor/
+l
+..
+clear
+l
+clear
+l
+clear
+l
+nv
+..
+l
+clear
+l
+docker compose up
+clear
+l
+clear
+cd -
+clear
+l
+clear
+nv
+l
+cd docker
+l
+clear
+touch Dockerfile-rails
+l
+clear
+l
+sudo chmod a+rw ./*
+l
+clear
+l
+mv Dockerfile-rails Dockerfile-web
+clear
+l
+clear
+l
+mkdir web
+clear
+l
+cd web
+l
+clear
+mkdir bin
+clea
+rclear
+clear
+cd bin/
+l
+touch entrypoint.sh
+clear
+l
+sudo chmod a+rwx ./*
+l
+clear
+...
+l
+sudo chmod a+rw ./*
+l
+claer
+clear
+l
+clear
+l
+cd .
+clear
+nv
+clear
+nv
+clear
+..
+rails run
+sudo bundle install
+clear
+bat Gemfile
+l
+clear
+l
+clear
+cd docker
+k
+l
+clear
+l
+mv ./* ../
+l
+clear
+..
+clear
+l
+clear
+rm -rf docker/
+l
+clear
+l
+nv
+docker compose up
+nv
+docker compose up
+clear
+docker compose up --build
+nv
+nmtui
+clear
+exit
+docker compose up --build
+nmtui
+clear
+nv
+clear
+cd testing
+cd rails
+clear
+l
+docker compose up --build
+clear
+nv
+clear
+exit
+docker compose up --build
+l
+nv
+clear
+docker compose up --build
+nv
+docker compose up --build
+l
+nv
+clear
+bundle install
+l
+nv
+touch Gemfile.lock
+clear
+nv
+docker compose up --build
+nv
+docker compose up --build
+nmtui
+exit
+tmux new -s rails
+l
+docker ps
+clear
+docker compose up
+docker compose down
+cd event
+clear
+cd even
+clear
+nv
+docker compose exec eventmanager_app bash
+docker compose up
+exit
+clear
+nv
+clear
+l
+clear
+mandocks
+clear
+l
+clear
+l
+clear
+clear
+exit
+l
+clear
+nv
+l
+clear
+l
+..
+l
+cd nwtk
+l
+clear
+l
+htl_new_day 
+l
+nv
+clear
+l
+rm 2024-03-25__nwtk__rip_testing.md
+clear
+l
+clear
+..
+clear
+l
+l | to json
+clear
+l
+mandocks
+clear
+l
+clear
+l
+clear
+bluetoothctl  
+exit
+bluetoothctl  
+exit
+cd Downloads/
+l
+clear
+gunzip -c `webstudio_dev (2).sql.gz`
+clear
+l
+clear
+l | where name like ''
+clear
+l
+bash
+clear
+fzf 
+cd
+clear
+fzf
+which tableplus
+cd .tableplus/
+l
+clear
+l
+cd queries/ws-queries/
+l
+clear
+cp `~/Downloads/webstudio_dev (2).sql` ./
+clear
+l
+mv `webstudio_dev (2).sql` webstudio.sql
+clear
+ll
+clear
+cd down
+l
+ckear
+clear
+l
+clear
+nv
+nv
+fzf
+l
+bat webstduio_ssh_key
+clear
+fzf
+bat webs_dump.sql
+clear
+webs_dump.sql | length
+vleac
+ckear
+clear
+l
+clear
+l | where name = 'webs_dump.sql'
+l | where name == 'webs_dump.sql'
+clear
+l
+clear
+ls
+open webs_dump.sql | str find-replace 'webstudio_dev' 'webstudio_testing' | save webs_dump.sql<\n><\n><\n>
+open webs_dump.sql | str replace 'webstudio_dev' 'webstudio_testing' | save webs_dump.sql<\n><\n><\n>
+open webs_dump.sql | str replace 'webstudio_dev' 'webstudio_testing' | save webs_dump_testing.sql<\n><\n><\n>
+ls
+clear
+ls
+bat webs_dump_testing.sql
+open webs_dump_testing.sql | lines | where { $it.contains('dev') } | length<\n>
+open webs_dump_testing.sql | lines | where { $it.contains("dev") } | length<\n>
+cp webs_dump_testing.sql .tableplus/queries/
+clear
+reboot
+clea
+clear
+l
+clear
+exit
+htop
+clear
+top
+clear
+l
+clear
+reboot
+clear
+exit
+clear
+l
+clear
+htop
+clear
+htop
+kill tableplus
+clear
+htop
+cxlwe
+exit
+clear
+l
+clear
+htop
+clear
+bat ~/webs_leads.sql
+nvim ~/webs_leads.sql
+clear
+n
+docker compose up
+clear
+docker ps
+clear
+l
+clear
+docker ps
+clear
+docker compose exec app bash
+cd gbv
+clear
+docker compose exec app bash
+chmod a+rw database/seeders/UserSeeder.php
+sudo chmod a+rw database/seeders/UserSeeder.php
+clear
+clear
+php
+clear
+man php
+php --interactive
+clear
+nv
+clear
+l
+claer
+tmux ls
+clear
+exit
+clear
+nv
+clear
+htop
+clear
+docker ps
+clear
+clear
+l
+clera
+clear
+touch attach-container.nu
+clear
+l
+clear
+mv attach-container.nu attach-container.sh
+clear
+l
+clear
+l
+chmod a+x attach-container.sh
+l
+clear
+l
+clear
+nv
+./attach-container.sh
+clear
+l
+clear
+nv
+./attach-container.sh
+clear
+docker ps -a
+clear
+l
+clear
+docker ps -q
+clear
+man docker ps
+docker ps -q
+docker ps -a
+clear
+docker ps
+docker compose exec 41c2307f1d1c bash
+clear
+l
+clear
+cd stud
+l
+clear
+l
+clear
+docker compose exec 41c2307f1d1c bash
+docker ps
+docker compose exec 41c2307f1d1c bash
+clear
+docker ps --name
+docker ps --format
+docker ps --format name
+clear
+docker ps
+docker ps --format NAMES
+clear
+docker compose exec app bash
+clear
+l
+clear
+docker inspect
+docker inspect web
+docker inspect webserver
+docker inspect -f '{{ range .Mounts }}{{ .Source }}:{{ .Destination }}\n{{ end }}' container_id_or_name<\n>
+docker inspect -f '{{ range .Mounts }}{{ .Source }}:{{ .Destination }}\n{{ end }}' app
+clear
+clear
+mandocks
+docker ps 
+clear
+l
+clear
+l
+clear
+nv
+./attach-container.sh
+clear
+l
+clear
+nv
+./attach-container.sh
+clear
+l
+clear
+l
+./attach-container.sh
+nv
+./attach-container.sh
+clear
+bash
+clear
+cd testing
+clear
+cd ~/testing/
+l
+clear
+./attach-container.sh
+clear
+nv
+./attach-container.sh
+nv
+./attach-container.sh
+docker exec -it eventmanager_app bash
+source ./attach-container.sh
+./attach-container.sh
+clear
+./attach-container.sh
+clear
+l
+clear
+./attach-container.sh
+clear
+./attach-container.sh
+clear
+./attach-container.sh
+clear
+./attach-container.sh
+clear
+./attach-container.sh
+docker exec -it eventmanager_app bash
+clear
+l
+clear
+docker exec -it eventmanager_app sh
+clear
+./attach-container.sh
+clear
+l
+clear
+./attach-container.sh
+clear
+exit
+l
+clear
+l
+clear
+clear
+l
+clear..
+clear
+..
+l
+clear
+l
+cd nuscripts/
+l
+clear
+l
+clear
+cp ~/testing/attach-container.sh ./
+l
+clear
+l
+clear
+attach-container.sh
+clear
+./
+./attach-container.sh
+clear
+l
+clear
+..
+cd -
+cl
+clear
+l
+bat l
+clear
+l
+cl
+clear
+touch cl
+l
+mv attach-container.sh attach-container
+l
+clear
+l
+chmod a+x cl
+l
+clear
+l
+nvim cl
+./cl
+clear
+l
+..
+clear
+l
+sudo ./sync_nu_scripts.nu
+l
+clear
+cl
+clear
+l
+cl
+clear
+attach-container 
+clear
+l
+celar
+cl
+clear
+l
+cl
+clear
+l
+cl
+l
+cl
+clear
+l
+cl
+l
+clear+
+cl
+mandocksl
+mandocks
+clear
+virtualbox --version
+mtui
+nmtui
+cl
+attach-container 
+docker ps
+clear
+clear
+cl
+cl
+cl
+l
+cl
+l
+clear
+l
+clear
+l
+cl
+l
+clear
+mandocks
+clear
+nv
+php 
+php -v
+clear
+nv
+docker ps
+clear
+exit
+attach-container 
+mandocks
+docker compose up
+clear
+docker compose up
+cd event
+clear
+nv
+docker --version
+clear
+ls
+clear
+nv
+git status
+docker compose up
+exit
+tmux
+exit
+tmux a
+exit
+celar
+ls
+clear
+ls
+clear
+ll
+clear
+nv
+clear
+clear
+clear
+mandocks
+mandocks
+clear
+nv
+clear
+mandocks
+brightnessctl set 100
+exit
+clear
+brightnessctl set 400
+exit
+nv
+clear
+git status
+clear
+mybat
+clear
+shtudown
+shutdown
+systemctl shutdown
+clear
+clear
+clear
+mandocks
+clearmandocks
+cl
+mandocks
+clear
+nv
+cd ..
+mandocks
+clear
+clear
+ls
+clear
+l
+claer
+clear
+cd GBV_Webcrawler_02/
+ls
+clear
+ls
+touch energie-atlas-main.js
+bat wlw-main-2.js
+clear
+ls
+cd dataObjects/
+ls
+clear
+ls
+cp dataObject.js energie-atlas-uuids.js
+clear
+exit
+nv
+clear
+cd dataObjects/
+clear
+nv
+bat energie_atlas_uuids.json
+open energie_atlas_uuids.json | each { |item| {id: $item.id}}
+open energie_atlas_uuids.json | each { |item| if ($item.id | str length | where $it == 36) { {id: ($item.id)} } else { {error: "ID is not 36 characters long", id: ($item.id)} } }<\n>
+clear
+l
+clear
+open energie_atlas_uuids.json | each { |item| {id: $item.id}}
+nv
+open energie_atlas_uuids.json | each { |item| {id: $item.id}} | to json | save energie_atlas_uuids.json
+clear
+l
+clear
+open energie_atlas_uuids.json | each { |item| {id: $item.id}} | to json | save energie_atlas_uuids_only.json
+l
+nv
+clear
+nv
+..
+clear
+clear
+postman
+nv
+clear
+clear
+l
+clear
+ls
+clear
+ls
+docs
+clear
+docs
+clear
+doc 
+clear
+doc python
+clear
+docs livewire
+clear
+l
+clear+
+clear
+touch docs.sh
+clear
+ls
+clear
+l
+chmod a+x cl
+chmod a+x docs.sh
+clear
+l
+clear
+l
+clear
+./docs.sh
+nv
+clear
+./docs.sh
+source ./docs.sh
+exit
+./docs.sh
+clear
+cp ~/testing/docs.sh ./nuscripts/docs
+clear
+cd nuscripts/
+ls
+clear
+l
+clear
+,,
+..
+clear
+./sync_nu_scripts.nu
+sudo ./sync_nu_scripts.nu
+clear
+docs 
+docs
+clear
+l
+clear
+nv
+docs php
+clear
+docs
+clear
+docs
+clear
+docs
+clear
+docs
+clear
+l
+clear
+l
+clear
+ls
+clear
+nv
+rails run
+clear
+rails -v
+bash
+celar
+clear
+l
+clear
+cl
+l
+clear
+yarn -v
+clear
+..
+clear
+l
+clear
+..
+l
+clear
+cd -
+clear
+cd odin-project/my_rails_testing/
+ls
+...
+clear
+..
+cl
+k
+cl
+l
+rails -v
+clear
+rails new eventmager_rails
+l
+rm eventmager_rails/
+rm -rf eventmager_rails/
+ls
+clear
+sudo rails new eventmanager_rails
+bundle install
+clear
+l
+clear
+rm -rf eventmager_rails/
+clear
+docs
+nv
+clear
+sudo ./sync_nu_scripts.nu
+clear
+...
+clear
+cd -
+..
+cd -
+clear
+docs
+clear
+cl
+cl
+mybat
+clear
+cl
+clear
+cl
+ls
+clear
+l
+clear
+lc
+clear
+cl
+clear
+cl
+l
+cle
+cl
+l
+cl
+tmux
+clear
+l
+ls
+clear
+l
+cd Projects/
+clear
+ls
+clear
+ls
+clera
+mkdir konsti
+clear
+ls
+clear
+cd konsti/
+ls
+clear
+touch main.js
+clear
+code .
+node main.js
+clear
+node main.js
+tmux ls
+clear
+mybat
+cl
+clear
+docks ps
+clear
+docker ps
+clear
+mandocks 
+clear
+l
+clear
+nv
+cd ..
+cd GBV_Webstudio/
+clear
+docs
+clear
+tmux a
+docs
+nv
+mybat
+cl
+nv
+nmtui
+exit
+l
+cd nts1
+cl
+ls
+clear
+htl_new_day 
+clear
+nvim
+mybat
+clear
+nmtui
+nv
+nv
+reboot
+nmtui
+clear
+clear
+clear
+nvim
+nv
+clear
+ls
+cd ls
+clear
+cd -
+clear
+ls
+clear
+l
+mkdir itsi
+cd itsi/
+clear
+htl_new_day 
+clear
+n
+nv
+..
+open `Downloadable Official CompTIA Security+ Student Guide.pdf`
+clear
+xdg-open `Downloadable Official CompTIA Security+ Student Guide.pdf`
+clear
+nv
+clear
+clear
+mandocks
+docks ps
+docker ps
+clear
+l
+clear
+nv
+..
+cd GBV_Webstudio/
+clear
+l
+lcear
+clear
+nmtui
+exit
+                   clear
+ls
+ckera
+clear
+cd sewMAO/
+ks
+ls
+lcear
+l
+lc
+l
+cl
+l
+cd fastapi_FINSIHED_.py
+zip fastapi_FINSIHED_.py
+cl
+l
+zip fastapi_FINSIHED_.py fastapi_sew.zip
+clear
+l
+clear
+l
+uvicorn fastapi_FINSIHED_.py --reload
+clear
+clear
+clear
+cl
+cl
+cl
+cl
+cl
+cl
+cl
+postman
+systemctl shutdown
+shutdown
+systemctl shutdown
+uvicorn fastapi_FINSIHED_.py --reload
+uvicorn fastapi_FINSIHED_.py:app --reload
+l
+uvicorn fastapi_FINSIHED_.py:app --reload
+ls -l
+nv fastapi_FINSIHED_.py
+htop
+docker ps
+docker compose down
+uvicorn fastapi_FINSIHED_.py:app --reload
+python fastapi_FINSIHED_.py
+bash
+clear
+uvicorn fastapi_FINSIHED_.py:app --reload
+uvicorn --help
+uvicorn fastapi_FINSIHED_.py:app --reload
+uvicorn fastapi_FINSIHED_.py:app
+nv
+mv fastapi_FINSIHED_.py fastapi_test.py
+clear
+uvicorn fastapi_test.py
+uvicorn fastapi_test.py:app
+uvicorn .fastapi_test.py:app
+uvicorn ./fastapi_test.py:app
+touch __init__.py
+uvicorn ./fastapi_test.py:app
+uvicorn fastapi_test.py:app
+uvicorn --app-dir . fastapi_test.py:app
+cp fastapi_test.py f.py
+nv f.üy
+l
+uvicorn f:app
+nvim fastapi_test.py
+ls -l
+python3 
+bat fastapi_test.py
+python3 
+cd mao
+clear
+uvicorn f:app
+clear
+nv
+code .
+postman 
+clear
+cd sewM
+cler
+l
+cl
+l
+mkdir fastapi_sqllite
+rm -rf fastapi_sqllite/
+clear
+l
+cl
+l
+lc
+cl
+l
+touch docker_compose.yml
+nv
+touch Dockerfile
+nv
+clear
+dokker compose up
+cler
+cl
+docker compose up -d
+l
+bat docker_compose.yml
+docker compose up -d
+cd ..
+cd -
+docker compose up -d
+mv docker_compose.yml docker-compose.yml
+docker compose up -d
+l
+clear
+bat docker-compose.yml
+l
+cd data/
+l
+..
+clear
+docker ps 
+docker compose exec sewmai-sqlite-1
+docker compose exec sewmai-sqlite-1 bash
+clear
+docker-compose exec sqlite sqlite3<\n>
+docker compose exec sqlite sqlite3<\n>
+clear
+l
+cd data/
+ls
+bat data
+..
+clear
+l
+clear
+l
+clear
+nv
+rm -rf docker-compose.yml Dockerfile
+clear
+l
+clear
+nv
+uvicorn fastapi_test:app --reload
+clear
+python --version
+python3 -V
+clear
+cd mao
+clear
+nv
+cd data/
+mv data data.db
+sudo mv data data.db
+clear
+l
+..
+clear
+uvicorn fastapi_test:app --reload
+nv
+cd data/
+sudo chmod 777 data.db
+..
+clear
+nv
+l
+sudo chmod 777 data
+l
+n
+uvicorn fastapi_test:app --reload
+nv
+clear
+l
+postman
+exit
+mandocks
+nmtui
+mandocks 
+clear
+ls
+docker ps
+clear
+code .
+exit
+l
+clear
+ls
+clear
+ls
+cd event
+clear
+docker compose exec eventmanager_app bash
+sudo chmod a+rw ./app/Livewire/*
+sudo chmod a+rw ./resources/views/livewire/*
+nv
+git status
+git stash
+clear
+git status
+git -h
+git stash
+sudo git stash
+git status
+clear
+git status
+tmx
+clear
+cle
+cl
+exit
+nmtu
+nmtui
+exit
+nmtui
+exit
+nvim
+clear
+exit
+nvim
+exit
+nvim
+exit
+mybat
+exit
+tmux
+nvim
+clear
+exit
+xz --version
+exit
+20240314.md | to json
+clear
+l
+./docs.sh | to json
+coear
+clear
+readelf bash_pro_shop.sh | to json
+clear
+n
+nv
+..
+cd GBV_Webstudio/
+clear
+l
+clear
+cd ../itp
+..
+clear
+l
+cd itp2/
+l
+clear
+cd sid/
+l
+clear
+..
+clear
+l
+htl_new_day 
+clear
+docker compose up
+docker ps
+docker compose up -d
+docker ps
+docker compose down
+nmtui
+exit
+cd stud
+clear
+..
+cd GBV_Webcrawler_02/
+cl
+l
+nmtui
+exit
+nv
+exit
+mybat
+clear
+nv
+exit
+tmux
+claer
+cd
+cl
+neofetch
+sudo apt autoremove
+cl
+neofetch
+tcpdump
+clear
+bash
+clear
+l Downloads/
+c
+cl
+l Downloads/
+cl
+cd Downloads/
+cl
+l
+cl
+ls
+tmux a
+tmux ps
+tmux ls
+cl
+l
+cl
+cd Projects/
+l
+clear
+l
+git clone git@github.com:balljul/Hacking-Mindmaps.git
+cl
+l
+cd Hacking-Mindmaps/
+l
+cle
+cl
+l
+cd Nmap/
+l
+xdg-open `nmap UHD.png`
+cl
+l
+xdg-open nmap.pdf
+..
+l
+cle
+cl
+l
+cl
+ls
+cl
+l
+cl
+ls
+cd `Docker CheatSheet/`
+l
+cl
+xdg-open `Docker Command Cheat Sheet UHD.png`
+ls
+cl
+l
+open Docker
+l
+xdg-open Docker
+cl
+l
+cl
+..
+l
+cl
+l
+cd Tools/
+k
+ck
+cl
+l
+cl
+ls
+cl
+l
+ücl
+cl
+l
+cl
+l
+xdg-open `Bug Bounty Tools UHD.png`
+xdg-open `Bug Bounty Tools.pdf`
+cl
+l
+cl
+l
+l
+cl
+l
+cl
+l
+cl
+ls
+cl
+l
+cl
+node
+mybat
+brightnessctl set 100
+nmtui
+ping 8.8.8.8
+ping www.orf.at
+nmtui
+ping www.orf.at
+nmtui
+ping www.orf.at
+nmtui
+ping www.orf.at
+nmmtui
+nmtui
+ifconfig
+ipconfig
+ip a
+ip address
+nmtui
+ping 8.8.8.8
+nmtui
+cl
+ping 8.8.8.8
+touch lan.sh
+nvim lan.sh
+./lan.sh
+sudo ./lan.sh
+./lan.sh
+nv
+sudo chmod 777 ./lan.sh
+./lan.sh
+nv
+nvim lan.sh
+./lan.sh
+nv
+nvim lan.sh
+ping 8.8.8.8
+cl
+ping 8.8.8.8
+cl
+ping 8.8.8.8
+nvim lan.sh
+./lan.sh
+cl
+nvim lan.sh
+./lan.sh
+ping 8.8.8.8
+exit
+ping 8.8.8.8
+cl
+..
+l
+cl
+ls
+cd Tools/
+l
+scl
+cl
+l
+xdg-open `Bug Bounty Tools UHD.png`
+..
+l
+cl
+cd Nmap/
+l
+cl
+l
+xdg-open `nmap UHD.png`
+clü
+cl+
+cl
+l
+xdg-open nmap.pdf
+node
+cl
+man gobuster 
+cd Projects/Forks/SecLists/
+fzf
+exit
+gobuster dir -u https://aryt3.dev/ -w ~/Projects/Forks/SecLists/Discovery/Web-Content/big.txt
+gobuster dir -u https://aryt3.dev/ -w ~/Projects/Forks/SecLists/Discovery/Web-Content/big.txt -t 5 -b 404
+gobuster dir -u https://aryt3.dev/ -w ~/Projects/Forks/SecLists/Discovery/Web-Content/big.txt -t 5 -b 502
+gobuster dir -u https://aryt3.dev/ -w ~/Projects/Forks/SecLists/Discovery/Web-Content/big.txt -x py,html,txt -t 5
+gobuster dir -u https://aryt3.dev/ -w ~/Projects/Forks/SecLists/Discovery/Web-Content/big.txt -x py,html,txt -t 5 -b 502
+man gobuster
+cd Downloads/
+l
+cl
+tar -x ZAP_2.14.0_Linux.tar.gz
+sudo tar -x ZAP_2.14.0_Linux.tar.gz
+sudo tar -xf ZAP_2.14.0_Linux.tar.gz
+cl
+cd Projects/Forks/SecLists/
+l
+cl
+l
+cd Passwords/
+l
+..
+l
+cl
+l
+cd Discovery/
+l
+cd Web-Content/
+l
+cd api
+l
+cl
+l
+gobuster dir -u https://aryt3.dev/api/ -w ~/Projects/Forks/SecLists/Discovery/Web-Content/big.txt -x json,xml -t 5 -b 502
+gobuster dir -u https://aryt3.dev/api/ -w ~/Projects/Forks/SecLists/Discovery/Web-Content/api/api-endpoints.txt -x json,xml -t 5 -b 502
+cl
+ls
+gobuster dir -u https://aryt3.dev/api/ -w ~/Projects/Forks/SecLists/Discovery/Web-Content/api/api-seen-in-wild.txt -x json,xml -t 5 -b 502
+l
+cl
+./ZAP_2.14.0/
+l
+./zap.sh
+l
+cl
+gobuster dir -u https://aryt3.dev/api/ -w ~/Projects/Forks/SecLists/Discovery/Web-Content/api/api-endpoints-res.txt -x json,xml -t 5 -b 502
+gobuster dir -u https://aryt3.dev/api/ -w ~/Projects/Forks/SecLists/Discovery/Web-Content/api/api-endpoints-res.txt -x json,xml -t 5 -b 502, 404
+exit
+clear
+gobuster dir -u https://aryt3.dev/api/ -w ~/Projects/Forks/SecLists/Discovery/Web-Content/api/api-endpoints-res.txt -x json,xml -t 5 -b 502,404
+gobuster dir -u https://aryt3.dev/api/ -w ~/Projects/Forks/SecLists/Discovery/Web-Content/api/api-endpoints-res.txt -x json,xml -t 5 -b 502,404 -H "Cookie: PHPSESSID=12345"
+brightnessctl set 400
+cd Downloads/
+l
+cl
+bat encryption.py
+python3 encryption.py 00bd6132-2cc7-4903-acec-33d4850790d4.webp
+cl
+l
+cl
+python
+clear
+python3.11
+cl
+bat encryption.py
+cl
+bat `output (1)`
+python3.11
+cl
+bat `output (1)`
+cd Downloads/
+l
+cl
+bat `output (1)`
+./decypher.py
+python3.11 decypher.py
+l
+cl
+bat encryption.py
+bar `output (1)`
+bat output
+bat `output (1)`
+bat `output (2)`
+cat `output (2)`
+cat encryption.py
+cl
+bat `output (2)`
+nvim decypher.py
+bat encryption.py
+cl
+cat encryption.py
+cl
+cat `output (2)`
+nvim decr.py
+python decr.py
+python3.11 ./decr.py
+nvim decr.py
+python3.11 ./decr.py
+nv
+nvim decr.py
+python3.11 ./decr.py
+cd Downloads/
+cl
+nvim
+nvim leaked_pdf_00.pdf
+cat leaked_pdf_00.pdf
+python3.11
+pip install pycipher
+pip install pycipher --break-system-packages
+python
+python3.11
+cl
+nvim test.p<
+nvim a.py
+python3.11 a.py
+cd code
+l
+cd lib
+l
+..
+l
+cl
+l
+exit
+gobuster dir -u http://80dc2194-bcb4-47f1-a54b-3a5bbc7a11f3.cluster.tophack.org/ -w ~/Projects/Forks/SecLists/Discovery/Web-Content/big.txt -b 502,404
+gobuster dir -u http://80dc2194-bcb4-47f1-a54b-3a5bbc7a11f3.cluster.tophack.org/blog -w ~/Projects/Forks/SecLists/Discovery/Web-Content/big.txt -b 502,404
+gobuster dir -u http://80dc2194-bcb4-47f1-a54b-3a5bbc7a11f3.cluster.tophack.org/blog -w ~/Projects/Forks/SecLists/Discovery/Web-Content/api/api-endpoints-res.txt -b 502,404
+cd Projects/Forks/SecLists/
+cl
+l
+cd Passwords/
+l
+cl
+ls
+bat README.md
+cl
+ls
+ls | sort-by size | reverse
+exit
+cd Downloads/
+cat `output (6)`
+cd Downloads/
+cat `output (6)`
+cd Downloads/
+cat `encryption (1).py`
+exit
+sudo apt-get install hydra-gtk<\n>
+cl
+l
+c
+cl
+touch users.txt
+nvim users.txt
+hydra -l admin@tophack.at -P ./rockyou.txt -f -V https://aryt3.dev http-post-form "/login:user=^USER^&password=^PASS^:Invalid Login"<\n>
+hydra -l admin@tophack.at -P ./rockyou.txt -f -V https://aryt3.dev/ http-post-form "/login:user=^USER^&password=^PASS^:Invalid Login"<\n>
+nmtui
+cl
+exit
+cl
+l
+cl
+cd Downloads/
+nmtui
+exit
+vol 0%
+bash
+exit
+mybat
+cl
+l
+cl
+cl
+cl
+lc
+tmu
+cl
+cl
+htop
+cl
+docs 
+docs
+l
+cl
+l
+cl
+l
+cl
+l
+nvim docs
+nvim docs.sh
+./docs.sh
+nv
+./docs.sh
+nv
+./docs.sh
+source ./docs.sh
+nv
+cl
+l
+nvim
+nvim docs.sh
+cl
+./docs.sh
+cl
+nv
+..
+cd GBV_Webstudio/
+cl
+l
+cl
+cl
+docker compose exec eventmanager_app bash
+cl
+sudo chmod a+rw ./app/Livewire/ALV/*
+sudo chmod a+rw ./resources/views/livewire/a-l-v/*
+cl
+brightnessctl set 400
+cl
+nmtui
+exit
+nmtui
+exit
+nv
+cl
+git pull
+git checkout dajana
+git status
+git pull
+cl
+docker ps
+cl
+nv
+git pull
+git checkout dajana_feedback
+nv
+git status
+cl
+mybat
+exit
+nv
+git status
+git checkout feature/all-leads-view
+git stash
+git checkout feature/all-leads-view
+git stash
+git status
+git add app/Livewire/ALV/
+git add resources/views/livewire/a-l-v/
+git stash
+sudo git stash
+sudo chmod a+rw ./resources/views/livewire/a-l-v/*
+sudo chmod a+rwx ./resources/views/livewire/a-l-v/*
+sudo chmod a+rwx ./app/Livewire/ALV/*
+sudo chmod a+rwx ./app/Livewire/ALV/
+sudo chmod a+rwx ./resources/views/livewire/a-l-v/
+git checkout feature/all-leads-view
+git stash
+git status
+bash
+cl
+git checkout feature/all-leads-view
+git status
+l app/Livewire/
+ls app/Livewire/
+cl
+ls app/Livewire/
+ls -l app/Livewire/
+cl
+ls -l app/Livewire/
+cl
+mybat
+exit
+htop
+exit
+mybat
+exit
+mybat
+exit
+cl
+l
+cd nuscripts/
+l
+cl
+l
+cat docs
+touch docs-open.sh
+cl
+l
+chmod a+x docs.sh
+sudo chmod a+x docs-open.sh
+cl
+./docs-open.sh
+cl
+nv
+./docs-open.sh
+source ./docs-open.sh
+cl
+nv
+source ./docs-open.sh
+cl
+l
+cl
+nv
+./docs-open.sh
+source ./docs-open.sh
+nvim docs-open.sh
+cl
+lc
+cl
+l
+cl
+nvim docs-open.sh
+./docs-open.sh
+cl
+l
+mv docs docs-form
+cl
+mv docs-open.sh docs
+cl
+./docs
+cl
+./docs
+cl
+l
+cl
+l
+cl
+exit
+..
+l
+sudo ./sync_nu_scripts.nu
+docs
+cl
+docs
+cl
+cd nuscripts/
+l
+cl
+nvim docs-open.sh
+l
+cl
+l
+nvim docs
+./docs
+..
+sudo ./sync_nu_scripts.nu
+cl
+docs
+sudo docs
+cl
+docs
+cat docs
+cl
+which docs
+cat /usr/bin/docs
+ls -l nuscripts/docs-form
+which docs-form
+cat nuscripts/docs nuscripts/docs-form
+ls -l nuscripts/docs
+./nuscripts/docs
+cd nuscripts/
+l
+scl
+l
+cl
+docs
+./docs
+..
+cl
+l
+cl
+docs
+which docs-form
+which docs
+cat nuscripts/docs
+cat /usr/bin/docs
+docs
+cl
+exit
+l
+docs
+exit
+tmux
+exit
+cl
+exit
+l
+cd nuscripts/
+l
+cl
+l
+./docs
+cl
+docs
+which docs
+cat /usr/bin/docs
+cl
+exit
+tmux
+exit
+..
+l
+cl
+l
+cl
+l
+cl
+nv
+cl
+l
+cl
+l
+cl
+/usr/bin/docs
+cl
+/usr/bin/docs-form
+cl
+tmxu neww "docs-form"
+tmux neww "docs-form"
+exit
+cl
+nmtui
+exit
+nv
+dockstop
+cl
+l
+cl
+nv
+l
+cl
+cp wlw-main-2.js wlw-main-3.js
+cl
+l
+cl
+exit
+nmtui
+exit
+..
+cd -
+docker compose exec app bash
+mandocks
+docker compose down
+..
+cd GBV_Webcrawler_02/
+docker ps
+docker compose up
+madocks
+mandocks
+cl
+docker ps
+cp karriere-link-crawler-main.js wlw-link-crawler-main.js
+cl
+exit
+l
+cl
+l
+cl
+node wlw-link-crawler-main.js
+exit
+node wlw-link-crawler-main.js
+exit
+node wlw-link-crawler-main.js
+clear
+l
+cl
+exit
+node wlw-link-crawler-main.js
+cl
+node wlw-link-crawler-main.js
+exit
+cl
+cd crawl
+cl
+cd crawl
+cl
+l
+cl
+node wlw-link-crawler-main.js
+node wlw-link-crawler-main.js
+cl
+cd crw
+cd crawl
+cl
+l
+cl
+node wlw-link-crawler-main.js
+cl
+node wlw-link-crawler-main.js
+cl
+node wlw-link-crawler-main.js
+cl
+node wlw-link-crawler-main.js
+cl
+node wlw-link-crawler-main.js
+cl
+l
+cl
+nv
+nmtui
+cl
+cd Downloads/
+l
+cl
+ls
+..
+l
+cl
+l
+wlw_links.json | parse
+wlw_links.json | yqml
+wlw_links.json | to yaml 
+read wlw_links.json | to json
+cl
+open wlw_links.json | to js
+open wlw_links.json | to json 
+cl
+l
+cl
+open wlw_links.json
+cle
+cl
+code wlw_links.json
+nvim wlw_links.json
+cl
+nvim wlw_links.json
+cl
+xdg-open wlw_links.json
+cd crawl
+cl
+cd dataObjects/
+l
+cl
+l
+nvim
+nv
+exit
+cd crawl
+cl
+node wlw-main-3.js
+nmtui
+node wlw-main-3.js
+nvim
+node wlw-main-3.js
+cd webc
+cl
+l
+node wlw-main-3.js
+l
+node wlw-main-3.js
+cl
+l
+cl
+node wlw-main-3.js
+cl
+node wlw-main-3.js
+cl
+node wlw-main-3.js
+mybat
+cl
+nvim a.md
+exit
+cd webc
+cl
+l
+cl
+l
+cl
+node wlw-main-3.js
+cat wlw-main-3.js
+cl
+node wlw-main-3.js
+cl
+nv
+mybat
+node wlw-main-3.js
+cl
+htop
+cl
+exit
+cl
+l
+cl
+npm install parse-address
+npm audit fix
+cl
+cat address-parser.js
+nv
+attach-container 
+exit
+node address-parser.js
+nv
+cl
+vol 0%
+bash
+cl
+cat .config/bspwm/bspwmrc
+feh --bg-scale /home/julius/Downloads/
+feh --bg-scale /home/julius/Downloads/bg.jpg
+l
+cl
+ntui
+nmtui
+reboot
+cl
+..
+cd itp2/
+htl_new_day 
+cl
+l
+nmtui
+nvim 2024-04-11__itp2__sid_excel.md
+cl
+..
+cd nwtk/
+l
+cl
+l
+cl
+htl_new_day 
+cl
+docker ps
+exit
+yl
+cl
+l
+cl
+mysql
+cl
+cd webcc
+cd webc
+cl
+nslookup orf.at
+nslookup orf.at | length
+nslookup orf.at | enumerate | length
+nslookup orf.at | to json 
+clear
+nslookup orf.at 
+docker compose exec crawlerdb sh
+cl
+exit
+tmux
+cl
+l
+cl
+cd webc
+cl
+node address-parser.js
+cat address-parser.js
+node address-parser.js
+node wlw-main-3.js
+node address-parser.js
+1 | inc
+node address-parser.js
+chrome
+nmtui
+exit
+mybat
+cl
+docker ps
+maddocks
+mandocks 
+cl
+nmtui
+feh --bg-scale /home/julius/Downloads/bg.jpg
+l
+cl
+nv
+exit
+ybat
+mybat
+exit
+brightnessctl set 100
+brightnessctl set 400
+docks
+docker ps
+mandocks
+cl
+mandocsk
+docker ps
+cl
+mandocks
+shutdown
+exit
+tmux
+cl
+l
+cl
+cd stud
+cl
+l
+cl
+nv
+tmux new -s gbv
+tmux ls
+cl
+l
+cl
+l
+bat webpack.mix.js
+cl
+l
+cl
+tmux new -s docker
+cle
+cl
+cd man
+cl
+l
+cl
+mandocks 
+nv
+git pull
+git checkout feature/admin-dashbaord
+git checkout feature/admin-dashboard
+git stash
+git status
+git checkout feature/admin-dashboard
+cl
+git staus
+git status
+cl
+mandocks
+cd stud
+cl
+bat resources/views/livewire/a-l-v/filter-modal.blade.php
+cat resources/views/livewire/a-l-v/filter-modal.blade.php
+cl
+exit
+cl
+tmux new -s eventmanager
+tmxu new -s htl
+tmux ls
+cl
+cd htl
+cd deutsch/
+lc
+cl
+l
+cl
+htl_new_day 
+exit
+nv
+cl
+l
+cl
+mandocks 
+cl
+brightnessctl set 400
+exit
+cl
+cd event
+l
+cl
+cd app/
+l
+cl
+touch Interfaces/UserInterface.php
+touch Repositories/UserRepository.phph
+mv Repositories/UserRepository.phph
+mv Repositories/UserRepository.phph Repositories/UserRepository.php
+cl
+l Interfaces/
+ls Interfaces/
+ls -al Interfaces/
+cl
+nv
+exit
+cl
+cd htl-villach/
+l
+cl
+l
+cd nwtk/
+l
+nv
+cl
+htl_new_day 
+nv
+cd down
+cl
+l
+cl
+unzip creativetimofficial-argon-dashboard-pro-laravel-181d1d8293c73cbcd65452fc0d6dac4f450a4590.zip
+cl
+cd creativetimofficial-argon-dashboard-pro-laravel-181d1d8293c73cbcd65452fc0d6dac4f450a4590/
+l
+cl
+l
+bash
+cl
+bash
+ifconfig
+cl
+exit
+networkctl 
+netstat 
+cl
+networkctl 
+sudo apt-get install net-tools
+net-tools
+cl
+sudo apt-get update
+cl
+ifconfig
+exit
+ifconfig
+exit
+ping 192.168.60.85
+bash
+exit
+nv
+cl
+exit
+mandocks 
+mandocks
+free -m
+cl
+free
+cl
+man free
+free
+cl
+free -m
+cl
+exit
+htop
+exit
+l
+cl
+l
+cl
+..
+l
+cl
+cd nwtk/
+l
+cl
+l
+cl
+htl_new_day 
+cl
+sudo apt install thunderbird
+man sudo -i
+exit
+tmux new -s htl
+cl
+docker ps
+cle
+cl
+nvim 2024-04-23__nwtk__dns_server.md
+ssh 192.168.60.235
+now
+clear
+now time
+time
+time now
+clear
+date now | date to-table
+clear
+date now
+clear
+mandocks 
+htop
+mybat
+clear
+cl
+bluetoothctl  
+vol 100%
+bash
+exit
+nv
+cd stud
+code .
+cd stud
+nv
+fzf
+cat resources/views/livewire/all-lead-view.blade.php
+brightnessctl set 200
+exit
+tmxu
+cl
+l
+cl
+cl
+cl
+cl
+..
+cl
+l
+cd itp2/
+l
+htl_new_day 
+cl
+nivm 2024-04-24__itp2__mui_nix.md
+docker ps
+mandocks
+cl
+l
+cl
+nvim 2024-04-24__itp2__mui_nix.md
+..
+cd nwtk/
+cl
+htl_new_day 
+date now
+clear
+cl
+l
+cl
+myba
+mybat
+mandocks
+htop
+mybat
+exit
+cd stud
+cl
+l
+cl
+exit
+cd stud
+sudo chmod -R 777 ./ 
+cl
+sudo chmod 777 -R ./
+l
+ls
+clear
+sudo chmod 777 -R ./*
+ls -al
+cl
+cd app/Livewire/
+l
+cd evnet
+cd event
+l
+cl
+sudo chmod 777 -R ./*
+l
+nvim 2024-04-24__nwtk__packettracer_acls.md
+cl
+..
+cl
+nvim
+cat b.md
+bat b.md
+mandocks
+brightnessctl set 200
+exit
+cl
+brightnessctl set 100
+attach-container 
+clear
+cd stud
+cl
+sudo chmod 777 -R ./*
+cl
+ls -al app/Livewire/
+exit
+sudo chmod 777 -R ./resources/views/livewire/*
+cl
+sudo chmod 777 -R ./app/Livewire/*
+exit
+cd stud
+cl
+cat resources/views/livewire/all-lead-view.blade.php
+brightnessctl set 400
+nmtui
+cl
+mandocks
+docker ps
+mando
+mandocks 
+cl
+l
+cl
+cd sytE/
+..
+cd syt
+..
+cl
+cd sytB/
+l
+cl
+nv
+htl_new_day 
+cl
+docker image ls
+man docker run
+man docker run -t
+cl
+exit
+sudo docker container ps -a
+docker container ps -a
+cl
+sudo docker ps -a
+cl
+docker ps -a
+docker container ps -a
+cl
+docker ps -a
+docker image ls 
+tmux
+cl
+cdi
+l
+cl
+l
+cd docker/
+l
+cl
+l
+cd web/
+l
+cd bin/
+cl
+cd script
+l
+cl
+touch open_ports
+chmod a+x open_ports
+nvim open_ports
+..
+l
+sudo ./sync_nu_scripts.nu
+cl
+exit
+open_ports 
+clear
+open_ports 
+cl
+l
+cl7
+cl
+l
+cl
+l
+cl
+docker pull wordpress
+docker container run wordpress -p 80:8092
+docker container run --name=ballj_wordpress -p 80:8092 wordpress
+docker container run --name=ballj_wordpress -p 80:880 wordpress
+docker container run --name=ballj_wordpress -p 80:8080 wordpress
+docker container rm ballj_wordpress
+cl
+docker container run --name=ballj_wordpress -p 80:8080 wordpress
+docker ps
+docker container run --name=ballj_wordpress -p 80:8080 wordpress
+docker container rm ballj_wordpress
+open_ports 
+docker container run --name=ballj_wordpress -p 80:8080 wordpress
+open_ports 
+docker container rm ballj_wordpress
+docker container run --name=ballj_wordpress -p 8090:80 wordpress
+exit
+docker ps
+cl
+exit
+mandocks
+cl
+parted
+cl
+apt install oparted
+sudo apt install parted
+cl
+htop
+c
+cl
+man udevadm
+cl
+free
+cl
+free -m
+cl
+free
+mydisk
+exit
+man parted
+parted 
+bash
+cl
+cd /Dev
+ls
+l
+cl
+l
+cl
+ls
+cd vdb
+l
+cl
+l
+cl
+l
+cl
+..
+cd
+cl
+l
+cl
+which attach_container
+exit
+cl
+man docker 
+man docker logs
+docker logs ballj_wordpress
+cl 
+sudo docker ps -a
+cl
+docker ps -a
+docker logs webserver
+cl
+docker run ballj_wordpress
+cl
+exit
+docker pull
+cl
+docker logs mc
+docker run -d -p 25565:25565 --name mc itzg/minecraft-server<\n>
+docker rm mc
+docker run -e EULA=TRUE -d -p 25565:25565 --name mc itzg/minecraft-server<\n>
+cl
+docker ps
+docker rm mc
+attach-container 
+cl
+docker ps
+docker stop mc
+ip address
+ping 172.25.4.102:35565
+ping 172.25.4.102:25565
+ping 172.25.4.102
+ping 172.25.4.102:25565
+ping 172.25.4.102
+ip address
+cl
+nmtui
+ping 172.25.4.102
+ping orf.at
+ping 172.25.4.102
+ping 172.25.4.100
+docker ps
+docker run -e EULA=TRUE -d -p 25565:25565 --name mc itzg/minecraft-server<\n>
+docker rm mc
+cl
+docker run -e EULA=TRUE -d -p 25565:25565 --name mc itzg/minecraft-server<\n>
+ip address
+docker stop mc
+nvim 2024-04-26__sytB__sid_mc_server_docker.md
+ecit
+exit
+cl
+nmtui
+tmxu ls
+cl
+tmux ls
+cl
+mybat
+exkt
+cl
+xec
+man xec
+exit
+bluetoothctl  
+nv
+cl
+l
+cl
+l
+cl
+nv
+l
+cl
+l
+cl
+l
+cl
+l
+cl
+l
+lc
+cl
+l
+cl
+n
+nv
+man n
+cl
+nv
+mandocks 
+cl
+exit
+nv
+cl
+mybat
+exit
+cl
+l
+cl
+nv
+cl
+cl
+mandocks
+brightnessctl set 200
+bluetoothctl  
+mandoks
+docker ps
+cl
+brightnessctl set 100
+docs
+docs-form 
+exit
+cl
+mandocks
+cl
+cl
+l
+cl
+cl
+cd Downloads/
+unzip `chemie_alles_bis_letzte_stunde 1.zip`
+cl
+cd chemie_alles_bis_letzte_stunde.pdf
+xdg-open chemie_alles_bis_letzte_stunde.pdf
+..
+cl
+.cd
+cd
+cl
+cd Projects/
+l
+cl
+l
+cd Ruby/
+l
+cl
+l
+rbenv
+cl
+rmv
+rvm
+cl
+gem install rails
+sudo gem install rails
+rails new eventmanager_rails --database=postgresql
+cd eventmanager_rails/
+bundle install
+sudo bundle install
+cl
+..
+rm -rf eventmanager_rails/
+cl
+rails
+sudo apt install rvm
+sudo apt install rbenv
+rbenv install 3.1.2
+rbenv install 3.3.1
+rbenv install --list
+docs-form 
+tmux
+cl
+cd connections.tableplusconnection
+cl
+cd linux
+l
+cl
+cd nu
+l
+cl
+nvim
+nv
+cl
+..
+rbenv install 3.1.2
+sudo ./sync_nu_scripts.nu
+cl
+cd
+docs-form 
+cl
+rbenv global 3.1.2
+cl
+gem install rails
+rbenv global 3.1.2
+cl
+gem
+gem remove rails
+gem delete rails
+gem 
+gem list --lical
+gem list --local
+gem list --local#
+gem list --local
+cl
+l
+cl
+ll
+l
+cl
+l
+nv
+sudo apt remove ruby
+sudo apt remove rbenv
+ruby
+rbenv
+cl
+apt install ruby
+sudo apt install ruby
+sudo apt install rbenv
+cl
+cl
+exit
+cl
+ssh 192.168.193.211
+cl
+l
+cl
+cd htl-villach/
+l
+cl
+l
+cd itp2/
+l
+cl
+l
+nvim 2024-04-11__itp2__sid_excel.md
+ssh janniswaldner@192.168.193.211
+cd itp2/
+ls
+cl
+htl_new_day 
+cl
+cd linux
+l
+cl
+l
+cd .config/
+l
+cl
+cd nvim/
+ls
+cd after/plugin
+l
+cl
+l
+cl
+l
+cat .env
+cl
+cd even
+cl
+cat .env
+cl
+bat .env
+cl
+ssh janniswaldner@192.168.193.211
+nv
+cl
+..
+cl
+cd nwtk/
+l
+cl
+htl_new_day 
+cl
+nv
+l
+xl
+cl
+ruby
+cl
+l
+cl
+l
+cl
+l
+cd .ruby-lsp/
+l
+bat Gemfile
+..
+cl
+l
+rails new eventmanager_rails --database=postgresql
+sudo chmod u+rw -R /var
+l
+sudo chmod u+rw -R /var/
+sudo chmod u+rw -R /var/lib/gems/
+cl
+k
+l
+rm -rf eventmanager_rails/
+sudo chmod u+rw -R /var/lib/gems/
+rails new eventmanager_rails --database=postgresql
+ls -al /var/lib/gems/
+sudo chmod o+rw -R /var/lib/gems/
+rm -rf eventmanager_rails/
+sudo chmod o+rw -R /var/lib/gems/
+rails new eventmanager_rails --database=postgresql
+rails bundle binstubs bundler
+cd ruby
+cl
+l
+cl
+rails bundle binstubs bundler
+rm -rf eventmanager_rails/
+cl
+cl
+rails new eventmanager_rails --database=postgresql
+bundle lock --add-platform=x86_64-linux
+sudo chmod o-rw -R /var/lib/gems/
+bundle lock --add-platform=x86_64-linux
+rails new eventmanager_rails --database=postgresql
+rm -rf eventmanager_rails/
+cl
+rails new eventmanager_rails --database=postgresql
+sudo chmod o+r -R /var/lib/gems/
+rails new eventmanager_rails --database=postgresql
+sudo apt remove ruby 
+sudo apt remove rbenv
+rbenv
+cl
+rbenv
+cl
+rm -rf ~/.rbenv/
+cd $HOME<\n>sudo apt update <\n>sudo apt install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libxml2-dev libxslt1-dev libcurl4-openssl-dev libffi-dev<\n><\n>git clone https://github.com/rbenv/rbenv.git ~/.rbenv<\n>echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc<\n>echo 'eval "$(rbenv init -)"' >> ~/.bashrc<\n>exec $SHELL<\n><\n>git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build<\n>echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bashrc<\n>exec $SHELL<\n><\n>rbenv install 2.3.1<\n>rbenv global 2.3.1<\n>ruby -v
+cl
+rbenv
+cl
+rebenv install
+rebenv install --list
+rbenv install --list
+rbenv 
+rbenv versions
+bash
+sudo apt install rbenv
+rbenv 
+rbenv install --list
+ruby
+ruby -v
+cl
+rbenv
+rbenv --version
+rbenv --whence
+rbenv whence
+cl
+cl
+htl_new_day 
+cl
+ruby -v
+cl
+exit
+rbenv install 3.1.2
+rbenv global 3.1.2
+rbenv install 3.1.2
+ruby -v
+clear
+sudo apt install rubygems
+cl
+rubygems
+cl
+gem install rails
+sudo chmod o+w -R /var/lib/gems/
+gem install rails
+rails new eventmanager_rails --database=postgresql
+bundle
+gem install bundler
+sudo chmod o+w -R /usr/local/bin/
+sudo chmod o-w -R /usr/local/bin/
+sudo gem install bundler
+rails new eventmanager_rails --database=postgresql
+bundle lock --add-platform=x86_64-linux
+sudo bundle lock --add-platform=x86_64-linux
+bundle 
+bundler
+sudo bundle
+sudo chmod o+r -R /usr/local/bin/
+bundle
+sudo chmod o+r -R /var/lib/gems/
+cl
+bundle
+rails new eventmanager_rails --database=postgresql
+cd Ruby/
+..
+cd eventmanager_rails/
+l
+bundle lock --add-platform=x86_64-linux
+bundle binstubs bundler
+bundle install
+sudo chmod o-w -R /var/lib/gems/
+bundle install
+sudo bundle install
+whoami
+man whoami
+cl
+echo $USER
+bash
+cl
+bash
+l
+cl
+bat /etc/passwd-
+irb
+cl
+bundle install
+irb
+cl
+l /var/lib/gems/
+ls -al /var/lib/gems/
+man chown 
+cl
+sudo chown -R julius:julius /var/lib/gems/
+bundle install
+..
+rm -rf eventmanager_rails/
+l
+cl
+rails new eventmanager_rails --database=postgresql
+cd eventmanager_rails/
+ls
+bat Gemfile.lock
+bundle install
+bash
+gem install bundler
+sudo chown -R julius:julius /usr/local/bin/
+gem install bundler
+bundle install
+sudo chown -R julius:julius /var/lib/ruby
+sudo chown -R julius:julius /usr/lib/
+bundle install
+rails run
+bundle install
+sudo bundle install
+ls -al /usr/lib/
+sudo chown -R julius:julius /usr/lib/ruby/
+bundle install
+sudo chown -R julius:julius /var/lib/gems/
+ls -al /var/lib/gems/
+bundle install
+sudo apt install ruby-de 
+sudo apt install ruby-dev
+bundle install
+sudo apt install libpq-dev
+cl
+bundle info
+clear
+rails run
+rails
+nvim 2024-04-29__nwtk__acls_ii.md
+..
+cl
+cd sewMAO/
+l
+cl
+rails server
+cl
+rails generate controller Welcome Index
+rails db:create
+..
+rm -rf eventmanager_rails/
+..
+cl
+rails new Eventmanager_rails --database=postgresql
+cd Eventmanager_rails/
+cl
+rails db:create
+sudo service postgresql --status
+cl
+l
+cl
+git init
+l
+cd .git/
+l
+cl
+cd event
+cl
+nv
+..
+cl
+nv
+cl
+exit
+nv
+l
+bat .dockerignore
+cl
+l
+nvim Dockerfile
+cl
+nvim
+cl
+exit
+tmux new -s configs
+docker build . -t rails_docker:1 # t flag use to give image name and version number.<\n>
+docker run -p 3000:3000 rails_docker:1
+bat bin/rails
+bin/rails credentials:edit
+bat config/application.rb
+mate
+cl
+docker build . -t rails_docker:1
+docker run -p 3000:3000 rails_docker:1
+docker run -p 3000:3000 rails_docker:1 --trace
+docker run -p 3000:3000 rails_docker:1
+nmtui
+cl
+nv
+nv
+cl
+tmux a
+cl
+Alkohol
+cl
+code .
+nvim
+cl
+docker ps
+cl
+mandocks
+mybat
+cl
+exit
+nvim
+exit
+nv
+nv
+nv
+nmtui
+reboot
+nmtui
+cl
+nmtui
+ip address
+nmtui
+sudo systemctl shutdown
+history
+sudo chown -R root /usr/local/bin/
+reboo
+cl
+history
+sudo chown -R root:julius /usr/local/bin/
+ls -al /usr/local/bin/
+sudo chown -R root:root /usr/local/bin/
+ls -al /usr/local/bin/
+cl
+ip address
+modprobe
+cl
+bash
+cl
+whoami
+cl
+id
+root
+su
+cl
+id
+cl
+sudo virtualbox 
+virtualbox 
+exit
+history
+nmtui
+sudo chown -R root:root /var/lib/
+ping orf.at
+cl
+exit
+cd htl-villach/
+cl
+clear
+git push
+git status
+..
+cl
+l
+cl
+cd Projects/
+l
+cd Eventmanager/
+git status
+..
+cd GBV/
+cd GBV_Webstudio/
+git add .
+git commit -m "backup"
+git push
+git status
+..
+cl
+cd GBV_Webstudio/
+clear
+ls
+clear
+l
+clear
+docker compose up
+whoami
+clear
+cd GBV/
+cd GBV_Webstudio/
+clera
+cl
+docker compose up
+cll
+cl
+clear
+exit
+cl
+cd GBV/GBV_Webstudio/
+clear
+l
+cl
+git status
+cl
+l
+cl
+..
+cl
+cd GBV_Webstudio/
+cl
+l
+cl
+nv
+nvim
+cl
+nv
+vi
+vim
+ci ./
+cl
+vi ./
+cbash

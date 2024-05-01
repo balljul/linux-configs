@@ -2,7 +2,6 @@
 #
 # version = "0.91.0"
 
-alias l = ls -al
 alias nv = nvim ./
 
 # For more information on defining custom themes, see
