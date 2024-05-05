@@ -1,4 +1,4 @@
-#! /usr/bin/env nu
+#! /home/julius/.cargo/bin/nu
 
 let subject = basename $env.PWD
 let timestamp = (date now | format date "%Y-%m-%d")

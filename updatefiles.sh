@@ -4,6 +4,10 @@
 # cp -r ~/.config/ ./ & 
 # echo -e " \xE2\x9C\x94" & 
 
+# Tmux config
+# cp -r ~/.tmux.conf/ ./ & 
+# echo -e " \xE2\x9C\x94" & 
+
 # tmux config
 cp ~/.tmux.conf ./ & 
 echo -e " Tmux \xE2\x9C\x94" & 

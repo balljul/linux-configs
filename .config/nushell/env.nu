@@ -1,6 +1,6 @@
 # Nushell Environment Config File
 #
-# version = "0.91.0"
+# version = "0.93.0"
 
 def create_left_prompt [] {
     let dir = match (do --ignore-shell-errors { $env.PWD | path relative-to $nu.home-path }) {
@@ -98,5 +98,3 @@ $env.NU_PLUGIN_DIRS = [
 
 # To load from a custom file you can use:
 # source ($nu.default-config-dir | path join 'custom.nu')
-
-zoxide init --cmd cd nushell | save -f ~/.zoxide.nu

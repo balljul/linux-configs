@@ -18,6 +18,8 @@ bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
 # Auto-Start Programms:
+compton --backend glx --vsync opengl-swc &
+usr/lib/xfce-polkit/xfce-polkit &
 picom --config $HOME/.config/picom/picom.conf & 
 xrandr --output DP-4 --rotate normal &
 xrandr --output DP-2-2 --rotate right &

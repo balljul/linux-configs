@@ -1,4 +1,4 @@
-#! /usr/bin/env nu
+#! /home/julius/.cargo/bin/nu
 
 let links = {
     'PHP' : 'https://www.php.net/manual/en/',
