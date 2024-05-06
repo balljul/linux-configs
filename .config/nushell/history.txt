@@ -526,3 +526,5 @@ cl
 l | to text
 cl
 exit
+echo $PATH
+exit

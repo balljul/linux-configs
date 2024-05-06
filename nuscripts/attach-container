@@ -3,4 +3,4 @@
 containers=$(docker ps --format "{{.Names}}")
 choosen_container=$(echo "$containers" | fzf)
 
-docker exec -it "$choosen_container" sh
+docker exec -it "$choosen_container" bash

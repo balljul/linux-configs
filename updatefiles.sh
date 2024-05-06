@@ -52,10 +52,7 @@ echo -e "Xfce4 Terminal \xE2\x9C\x94" &
 cp -r ~/.bashrc ./.config/ & 
 echo -e "Bash config \xE2\x9C\x94" & 
 
-# UserDirs config
-cp ~/.config/user-dirs.dirs ./ & 
-echo -e "UserDir config \xE2\x9C\x94" & 
 
-# UserDirs config
+# Nu config
 cp -r ~/.config/nushell/ ./.config/ & 
 echo -e "Nushell config \xE2\x9C\x94" & 

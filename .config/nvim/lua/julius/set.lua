@@ -26,4 +26,5 @@ vim.opt.isfname:append('@-@')
 
 vim.g.mapleader = " "
 
-    
+vim.opt.colorcolumn = "120"
+vim.cmd('autocmd BufNewFile,BufRead *.blade.php,*.html setfiletype html | setlocal colorcolumn=""')
