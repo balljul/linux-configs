@@ -13,6 +13,8 @@ return require('packer').startup(function(use)
     -- Packer can manage itself
     use 'wbthomason/packer.nvim' 
 
+    use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
+
     use 'xiyaowong/transparent.nvim' 
 
     use 'tpope/vim-obsession'
@@ -35,7 +37,13 @@ return require('packer').startup(function(use)
     use( 'theprimeagen/harpoon' )
     use( 'tpope/vim-fugitive') 
 
+    use({
+        "iamcco/markdown-preview.nvim",
+        run = function() vim.fn["mkdp#util#install"]() end,
+    })
+
     use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
+
 
     use {
         'VonHeikemen/lsp-zero.nvim',
