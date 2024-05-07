@@ -1,0 +1,13 @@
+#! /usr/bin/env bash
+
+declare -A links
+
+while IFS='=>' read -r key value; do
+    key=$(echo "$key" | xargs)
+    value=$(echo "$value" | sed 's/^>//')
+    value=$(echo "$value" | xargs)
+    links["$key"]="$value"
+done < ../config/bin_config_files/docs.txt
+
+selected_key=$(for key in "${!links[@]}"; do echo "$key"; done | fzf)
+xdg-open "${links[$selected_key]}"

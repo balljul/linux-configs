@@ -1,0 +1,45 @@
+#! /usr/bin/env bash
+
+declare -A docks
+
+while IFS='=>' read -r key value; do
+    key=$(echo "$key" | xargs )
+    value=$(echo "$value" | sed 's/^>//')
+    value=$(echo "$value" | xargs )
+    docks["$key"]="$value"
+done < ../config/bin_config_files/mandocks.txt
+
+actions=("attached" "detached" "compose-down")
+dock_selection=$(for key in "${!docks[@]}"; do echo "$key"; done | fzf --prompt="Select Dock: ")
+action_selection=$(for action in "${actions[@]}"; do echo "$action"; done | fzf --prompt="Select Action: ")
+final_path="${docks[$dock_selection]}"
+starting_path=$(pwd)
+
+echo "$final_path"
+
+if [ "$final_path" == "/home/julius" ]; then
+    if [ "$action_selection" != "compose-down" ]; then
+        echo "Only 'compose down' is available for All Docks"
+    else
+        all_docks=$(docker ps -q | wc -l)
+        docker stop $(docker ps -q)
+        echo "Successfully stopped $all_docks containers"
+    fi
+else
+    case $action_selection in
+        attached)
+            cd "$final_path"
+            docker compose up
+            ;;
+        detached)
+            cd "$final_path"
+            docker compose up -d
+            cd "$starting_path"
+            ;;
+        compose-down)
+            cd "$final_path"
+            docker compose down
+            cd "$starting_path"
+            ;;
+    esac
+fi
