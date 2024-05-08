@@ -1,0 +1,11 @@
+#! /usr/bin/env bash
+
+source paths_and_more
+
+for config_dir in "$PROJECT_CONFIG_DIRECTORY"/*; do
+    ln -s "$config_dir" "$SYSTEM_CONFIG_DIRECTORY"
+done
+
+ln -s "$PROJECT_TMUX_CONF_FILE" "$SYSTEM_TMUX_CONF_FILE"
+ln -s "$PROJECT_BASHRC_FILE" "$SYSTEM_BASHRC_FILE"
+ln -s "$PROJECT_HOSTS_FILE" "$SYSTEM_HOSTS_FILE"

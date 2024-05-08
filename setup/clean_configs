@@ -1,0 +1,20 @@
+#! /usr/bin/env bash
+
+source paths_and_more
+
+function remove_config()
+{
+    if [ -e "$1" ]; then
+        rm -rf "$1"
+    fi
+}
+
+for config_dir in "$PROJECT_CONFIG_DIRECTORY"/*; do
+    name=$(basename "$config_dir")
+    target_path="$SYSTEM_CONFIG_DIRECTORY$name"
+    remove_config "$target_path"
+done
+
+remove_config "$SYSTEM_HOSTS_FILE"
+remove_config "$SYSTEM_BASHRC_FILE"
+remove_config "$SYSTEM_TMUX_CONF_FILE"

@@ -1,4 +1,5 @@
-#!/bin/bash
+#! /usr/bin/env bash
+
 rm /tmp/screenshot.png
 rm /rmp/screenshotblur.png
 scrot /tmp/screenshot.png

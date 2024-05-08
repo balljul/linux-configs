@@ -1,0 +1,6 @@
+#! /usr/bin/env bash
+
+containers=$(docker ps --format "{{.Names}}")
+choosen_containers=$(echo "$containers" | fzf)
+
+docker exec -it "$choosen_containers" bash

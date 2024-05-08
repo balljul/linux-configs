@@ -1,0 +1,5 @@
+GBV Webstudio => /home/julius/GBV/GBV_Webstudio
+Datacycle Plain => /home/julius/Projects/Forks/dataCycle/dataCycle-PLAIN
+Eventmanager => /home/julius/Projects/Eventmanager
+GBV Webcrawler => /home/julius/GBV/GBV_Webcrawler_02
+All Docks => /home/julius

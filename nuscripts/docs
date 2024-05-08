@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-tmux new-window "nu docs-form; read -p 'Press enter to close...'"

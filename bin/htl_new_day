@@ -1,0 +1,15 @@
+#! /usr/bin/env bash
+
+subject=$(basename "$PWD")
+timestamp=$(date "+%Y-%m-%d")
+read -p "Enter todays topic: " topic
+
+processed_name=$(echo "$topic" | tr '[:upper:]' '[:lower:]' | tr -s ' ' '_')
+full_file_name="${timestamp}__${subject}__${processed_name}.md"
+
+heading="# $(date "+%d %B %Y") $name"
+
+touch "$full_file_name"
+echo "$heading" >> "$full_file_name"
+
+nvim "$full_file_name"
