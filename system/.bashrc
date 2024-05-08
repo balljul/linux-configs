@@ -85,75 +85,6 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # cd aliases
-alias ..='cd ..'
-alias ...='cd ../..'
-alias ~='cd ~/'
-
-alias a='curl parrot.live'
-alias docs='cd ~/Documents/Documentations'
-alias proj='cd ~/Documents/Projects/'
-alias plains='cd ~/Documents/docker-plain-projects'
-
-alias afx='cd ~/Documents/Projects/ArcadeFusionX'
-alias webstudio='cd ~/Documents/Projects/gbv/GBV_Webstudio'
-alias tasklogger='cd ~/Documents/Projects/taskLoggerX'
-
-alias edital='nano ~/.bashrc'
-alias loadal='source ~/.bashrc'
-
-# amixer
-alias vol="amixer sset 'Master'"
-
-# NeoVim
-alias nv='nvim .'
-
-# Arduino aliases
-alias ard='/home/julius/bin/arduino-cli'
-
-# networking aliases
-alias tracert='traceroute'
-
-# who aliases
-alias who='who -aH'
-
-# df aliases
-alias df='df -hT'
-alias mydisk='df /dev/nvme0n1p2'
-
-# du aliases
-alias du='du -h'
-
-# ls aliases
-alias l='ls -ahlF --author'
-alias ll='ls -hlF --author'
-alias ls='ls --color=auto'
-alias fcount='ls -1 | wc -l'
-# CLI Aliases
-alias cl='clear -x'
-alias »='>>'
-
-# Python Aliases
-alias python='python3'
-
-# docker aliases
-alias alldocks='docker ps -as'
-alias docks='docker ps -s'
-alias dockstop='docker stop $(docker ps -a -q)'
-alias compose='docker compose up -d'
-
-# taskloggerX aliases
-alias tlx='python ~/Documents/Projects/taskLoggerX/app/app.py tlx'
-
-# systemctl aliases
-alias reboot='systemctl reboot'
-alias shutdown='systemctl poweroff'
-
-# School
-alias htl='cd ~/Documents/htl-villach'
-alias hü='nvim ~/Documents/htl-villach/hausübung.md'
-
-# Private
-alias plans='cd ~/Documents/weekplans'
 
 # colored GCC warnings and errors
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
@@ -172,8 +103,8 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
+if [ -f ~/.aliases ]; then
+    . ~/.aliases
 fi
 
 # enable programmable completion features (you don't need to enable
@@ -192,7 +123,5 @@ eval "$(zoxide init posix --cmd cd --hook prompt)"
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH=$BUN_INSTALL/bin:$PATH
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
