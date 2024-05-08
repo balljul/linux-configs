@@ -1,0 +1,5 @@
+#! /usr/bin/env bash
+
+source ../setup/paths_and_more
+
+sudo apt install -y openssh-server
