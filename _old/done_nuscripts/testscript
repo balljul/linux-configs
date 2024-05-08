@@ -1,3 +1,0 @@
-#! /home/julius/.cargo/bin/nu
-
-ls | where type == dir | get name | to text | fzf

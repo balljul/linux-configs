@@ -1,3 +1,0 @@
-#!/home/julius/.cargo/bin/nu
-
-ls -al | sort-by type

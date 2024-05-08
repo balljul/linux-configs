@@ -1,3 +1,0 @@
-#! /usr/bin/env bash
-
-netstat -an | grep -iw listen
