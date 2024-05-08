@@ -3,4 +3,4 @@
 source ../setup/paths_and_more
 
 apt update
-apt install -y --no-install-recommends bspwm sxhkd polybar compton rofi dunst nitrogen i3lock redshift cmus ranger lightdm
+apt install -y --no-install-recommends bspwm sxhkd polybar compton rofi dunst nitrogen i3lock redshift cmus ranger lightdm xfc4-terminal xorg
