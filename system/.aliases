@@ -24,8 +24,8 @@ alias mydisk='df /dev/nvme0n1p2'
 alias du='du -h'
 
 # ls aliases
-alias l='ls -hlF --author'
-alias ll='ls -ahlF --author'
+alias l='ls -ahlF --author'
+alias ll='ls -hlF --author'
 alias ls='ls --color=auto'
 alias fcount='ls -1 | wc -l'
 
