@@ -18,3 +18,6 @@ done
 remove_config "$SYSTEM_HOSTS_FILE"
 remove_config "$SYSTEM_BASHRC_FILE"
 remove_config "$SYSTEM_TMUX_CONF_FILE"
+remove_config "$SYSTEM_ALIASES_FILE"
+remove_config "$SYSTEM_GITCONFIG_FILE"
+remove_config "$SYSTEM_PROFILE_FILE"

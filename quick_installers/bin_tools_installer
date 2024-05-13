@@ -1,0 +1,6 @@
+#! /usr/bin/env bash
+
+source ../setup/paths_and_more
+
+apt install -y net-tools
+apt install -y fzf

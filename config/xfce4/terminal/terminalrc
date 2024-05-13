@@ -32,6 +32,6 @@ ScrollingBar=TERMINAL_SCROLLBAR_NONE
 ScrollingUnlimited=TRUE
 ColorBackground=#000000000000
 BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
-BackgroundDarkness=0.190000
+BackgroundDarkness=0.060000
 CustomCommand=.cargo/bin/nu
 

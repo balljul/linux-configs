@@ -1,0 +1,7 @@
+#! /usr/bin/env bash
+
+selection=$(fzf --preview='cat {}')
+
+if [ -n "$selection" ]; then
+    nvim "$selection"
+fi

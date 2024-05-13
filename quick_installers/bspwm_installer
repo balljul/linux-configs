@@ -1,0 +1,9 @@
+#! /usr/bin/env bash
+
+source ../setup/paths_and_more
+
+apt update
+
+for pkg in bspwm sxhkd polybar compton rofi dunst nitrogen i3lock redshift cmus ranger lightdm xfc4-terminal xorg; do
+    apt install -y --no-install-recommends "$pkg";
+done
