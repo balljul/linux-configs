@@ -3,4 +3,5 @@
 while true; do
     netstat -an | grep -iw listen
     sleep 5
+    clear
 done

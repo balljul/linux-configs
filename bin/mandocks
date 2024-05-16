@@ -6,8 +6,6 @@ while IFS='=>' read -r key value; do
     key=$(echo "$key" | xargs )
     value=$(echo "$value" | sed 's/^>//')
     value=$(echo "$value" | xargs )
-    echo $value
-    echo $key
     docks["$key"]="$value"
 done < /home/julius/.config/bin_config_files/mandocks.txt
 
