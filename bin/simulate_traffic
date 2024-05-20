@@ -1,0 +1,12 @@
+#! /usr/bin/env bash
+
+server_ip="192.168.1.49"
+router_ip="192.168.1.1"
+
+iperf -c "$server_ip" -t 60 -i 10 -P 10 &
+
+sudo ping -f -s 1500 "$router_ip" &
+
+hping3 -S -p 80 -i u1000 "$router_ip" &
+
+while true; do wget -O /dev/null https://debian.anexia.at/debian-cd/current/amd64/iso-cd/debian-edu-12.5.0-amd64-netinst.iso; done

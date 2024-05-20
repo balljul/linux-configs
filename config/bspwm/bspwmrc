@@ -23,7 +23,6 @@ usr/lib/xfce-polkit/xfce-polkit &
 picom --config $HOME/.config/picom/picom.conf & 
 xrandr --output DP-4 --rotate normal &
 xrandr --output DP-2-2 --rotate right &
-polybar &
 xset dpms 0 0 0 && xset s noblank  && xset s off &
 feh --bg-scale /home/julius/Background-debian.jpg
 setxkbmap -option caps:escape
