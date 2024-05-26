@@ -35,3 +35,6 @@ alias python='python3'
 # systemctl aliases
 alias reboot='systemctl reboot'
 alias shutdown='systemctl poweroff'
+
+# Custom command aliases
+alias gibr='choose_git_branch'

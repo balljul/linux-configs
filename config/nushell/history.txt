@@ -528,3 +528,5 @@ cl
 exit
 echo $PATH
 exit
+echo $0
+exit

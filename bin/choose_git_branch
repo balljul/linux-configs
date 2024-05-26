@@ -1,0 +1,10 @@
+#! /usr/bin/env bash
+
+choosen_branch=$(git branch | fzf)
+choosen_branch=$(echo "$choosen_branch" | sed 's/^[[:space:]]*//')
+
+if [ -n "$selection"]; then
+    git checkout "$choosen_branch"
+fi
+
+exit

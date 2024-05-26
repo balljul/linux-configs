@@ -1,0 +1,30 @@
+#! /usr/bin/env bash
+
+source paths_and_more
+
+cd $HOME_DIRECTORY
+history_files=$(find . -maxdepth 1 -type f -name '.*history*')
+less_history_file="${HOME_DIRECTORY}.lesshst"
+
+if [[ ! -d .history_files ]]; then
+    mkdir -p .history_files
+    echo "history_files directory created"
+fi
+history_dir="${HOME_DIRECTORY}.history_files/"
+
+for history_file in $history_files; do
+    home_dir_location=$(echo "$history_file" | sed "s|^\./|$HOME_DIRECTORY|")
+    history_dir_location=$(echo "$history_file" | sed "s|^\./|$history_dir|")
+    
+    mv "$history_file" "$history_dir"
+    ln -s "$history_dir_location" "$home_dir_location"
+    chmod +rw "$home_dir_location"
+    chmod +rw "$history_dir_location"
+done
+
+if [[ ! -f "$less_history_file" ]]; then
+    mv "$less_history_file" "$history_dir"
+    ln -s "${history_dir}.lesshst" "$less_history_file"
+fi
+
+chmod +rw "${history_dir}"
