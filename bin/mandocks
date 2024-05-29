@@ -15,8 +15,6 @@ action_selection=$(for action in "${actions[@]}"; do echo "$action"; done | fzf 
 final_path="${docks[$dock_selection]}"
 starting_path=$(pwd)
 
-echo "$final_path"
-
 if [ "$final_path" == "/home/julius" ]; then
     if [ "$action_selection" != "compose-down" ]; then
         echo "Only 'compose down' is available for All Docks"
