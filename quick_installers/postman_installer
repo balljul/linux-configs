@@ -1,0 +1,18 @@
+#! /usr/bin/env bash
+
+source ../setup/paths_and_more
+
+sudo rm -rf /opt/Postman
+
+tar -C /tmp/ -xzf <(curl -L https://dl.pstmn.io/download/latest/linux64) && sudo mv /tmp/Postman /opt/
+
+sudo tee -a /usr/share/applications/postman.desktop << END
+[Desktop Entry]
+Encoding=UTF-8
+Name=Postman
+Exec=/opt/Postman/Postman
+Icon=/opt/Postman/app/resources/app/assets/icon.png
+Terminal=false
+Type=Application
+Categories=Development;
+END
