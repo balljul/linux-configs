@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-choosen_branch=$(git branch | fzf)
+choosen_branch=$(git branch -a | fzf)
 choosen_branch=$(echo "$choosen_branch" | sed 's/^[[:space:]]*//')
 
 if [ -n "$selection"]; then

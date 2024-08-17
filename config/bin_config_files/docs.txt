@@ -1,5 +1,6 @@
 PHP => https://www.php.net/manuel/en/
 Ruby => https://ruby-doc.orf/3.3.1/
+Ruby 3.2.0 => https://ruby-doc.orf/3.2.0/
 Laravel 10 => https://laravel.com/docs/10.x/
 Livewire 3 => https://livewire.laravel.com/docs/
 ChartJS => https://www.chartjs.org/docs/latest/

@@ -38,3 +38,8 @@ alias shutdown='systemctl poweroff'
 
 # Custom command aliases
 alias gibr='choose_git_branch'
+
+alias dps='docker ps'
+alias dc='docker compose'
+
+alias br-max='brightnessctl set $(brightnessctl max)'
