@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-SOCKET_NAME="custom_socket"
+SOCKET_NAME="gbv"
 SESSIONS=("general" "webstudio" "webcrawler")
 
 tmux -L $SOCKET_NAME new-session -d -s ${SESSIONS[0]} -n window1
@@ -9,5 +9,3 @@ for session in "${SESSIONS[@]:1}"; do
     tmux -L $SOCKET_NAME new-session -d -s $session -n window1
     tmux -L $SOCKET_NAME new-window -t $session:1 -n window2
 done
-
-tmux -L $SOCKET_NAME attach -t ${SESSIONS[0]}

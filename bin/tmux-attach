@@ -1,0 +1,13 @@
+#! /usr/bin/env bash
+
+SOCKETS=$(ls /tmp/tmux-$UID/ 2>/dev/null)
+selected_socket=$(echo "$SOCKETS" | fzf --prompt='Select tmux Socket: ')
+
+if [ -z "$selected_socket" ]; then
+    echo 'No socket selected. Exiting.'
+    exit 0
+elif [ "$selected_socket" = 'default' ]; then
+    tmux attach
+else
+    tmux -L "$selected_socket" attach
+fi
