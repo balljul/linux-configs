@@ -1,28 +1,50 @@
-#! /bin/sh
+#!/bin/sh
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-bspc monitor -d dev dev dev web web tool tool rest 
+is_monitor_connected() {
+    xrandr --query | grep "^$1 connected" >/dev/null
+}
+
+if is_monitor_connected "DP-2" && is_monitor_connected "eDP-1"; then
+    xrandr --output DP-2 --primary --auto
+    xrandr --output eDP-1 --auto --right-of DP-2
+    # xrandr --output DP-1 --auto --right-of eDP-1
+
+    sleep 1
+
+    bspc monitor -d
+
+    bspc monitor DP-2 -d dev1 dev2 dev3 web1 web2 tool1 tool2 rest
+    bspc monitor eDP-1 -d extra1 extra2
+    # bspc monitor DP-1 -d extra2
+elif is_monitor_connected "eDP-1"; then
+    xrandr --output eDP-1 --auto
+    xrandr --output DP-2 --off
+    xrandr --output DP-1 --off
+
+    bspc monitor eDP-1 -d dev1 dev2 dev3 web1 web2 tool1 tool2 rest extra1 extra2
+else
+    bspc monitor -d dev1 dev2 dev3 web1 web2 tool1 tool2 rest extra1 extra2
+fi
 
 bspc config border_width         1
 bspc config window_gap           5
-
 bspc config split_ratio          0.52
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
-bspc rule -a Gimp desktop='^8' state=floating follow=on
-bspc rule -a Chromium desktop='^2'
+bspc rule -a Gimp desktop='rest' state=floating follow=on
+bspc rule -a Chromium desktop='web1'
 bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
-# Auto-Start Programms:
 compton --backend glx --vsync opengl-swc &
-usr/lib/xfce-polkit/xfce-polkit &
+/usr/lib/xfce-polkit/xfce-polkit &
 picom --config $HOME/.config/picom/picom.conf & 
-xrandr --output DP-4 --rotate normal &
-xrandr --output DP-2-2 --rotate right &
-xset dpms 0 0 0 && xset s noblank  && xset s off &
+xset dpms 0 0 0 && xset s noblank && xset s off &
 feh --bg-scale /home/julius/Background-debian.jpg
 setxkbmap -option caps:escape
+
+bspc desktop -f ^1
