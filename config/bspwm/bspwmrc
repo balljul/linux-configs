@@ -48,3 +48,6 @@ feh --bg-scale /home/julius/Background-debian.jpg
 setxkbmap -option caps:escape
 
 bspc desktop -f ^1
+
+tmux-gbv &
+tmux-configs &
