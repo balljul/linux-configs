@@ -1,0 +1,12 @@
+#! /usr/bin/env bash
+
+source ../setup/paths_and_more
+
+cd "${HOME_DIRECTORY}"
+if [[ ! -d "${HOME_DIRECTORY}.monaspace/" ]]; then
+    git clone https://github.com/githubnext/monaspace.git
+fi
+cd monaspace
+util/install_linux.sh
+
+
