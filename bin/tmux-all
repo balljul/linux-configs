@@ -1,0 +1,6 @@
+#! /usr/bin/env bash
+
+tmux-gbv &&
+tmux-configs &&
+tmux-htl &&
+tmux-attach
