@@ -9,6 +9,8 @@ super + o
     lock
 super + f
     google-chrome-stable
+super + t
+    tableplus
 
 # terminal emulator
 super + Return
