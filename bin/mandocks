@@ -1,43 +1,204 @@
-#! /usr/bin/env bash
+#!/usr/bin/env bash
 
-declare -A docks
+# Configuration
+MAX_DEPTH=3  # Adjust this to search deeper or shallower
+SEARCH_DIR="$HOME"
 
-while IFS='=>' read -r key value; do
-    key=$(echo "$key" | xargs )
-    value=$(echo "$value" | sed 's/^>//')
-    value=$(echo "$value" | xargs )
-    docks["$key"]="$value"
-done < /home/julius/.config/bin_config_files/mandocks.txt
+# Function to extract host ports from docker-compose file
+get_compose_ports() {
+    local compose_file="$1"
+    local project_dir="$2"
 
-actions=("attached" "detached" "compose-down")
-dock_selection=$(for key in "${!docks[@]}"; do echo "$key"; done | fzf --prompt="Select Dock: ")
-action_selection=$(for action in "${actions[@]}"; do echo "$action"; done | fzf --prompt="Select Action: ")
-final_path="${docks[$dock_selection]}"
-starting_path=$(pwd)
+    cd "$project_dir" || return
+    # Use docker compose config to parse the file and extract host ports
+    docker compose -f "$(basename "$compose_file")" config 2>/dev/null | \
+        grep -A 1 "published:" | grep -oP '\d+' | sort -n | uniq
+}
 
-if [ "$final_path" == "/home/julius" ]; then
-    if [ "$action_selection" != "compose-down" ]; then
-        echo "Only 'compose down' is available for All Docks"
-    else
-        all_docks=$(docker ps -q | wc -l)
-        docker stop $(docker ps -q)
-        echo "Successfully stopped $all_docks containers"
+# Function to get containers using specific ports
+get_containers_on_ports() {
+    local ports="$1"
+    local conflicts=""
+
+    while read -r port; do
+        [ -z "$port" ] && continue
+        # Find containers using this port
+        local containers=$(docker ps --format "{{.ID}}:{{.Names}}:{{.Ports}}" | \
+            grep -E "0\.0\.0\.0:${port}->" | cut -d: -f1-2)
+
+        if [ -n "$containers" ]; then
+            conflicts+="Port $port: $containers"$'\n'
+        fi
+    done <<< "$ports"
+
+    echo -n "$conflicts"
+}
+
+# Function to stop conflicting containers
+stop_conflicting_containers() {
+    local ports="$1"
+    local container_ids=()
+
+    while read -r port; do
+        [ -z "$port" ] && continue
+        local ids=$(docker ps --format "{{.ID}}:{{.Ports}}" | \
+            grep -E "0\.0\.0\.0:${port}->" | cut -d: -f1)
+
+        while read -r id; do
+            [ -n "$id" ] && container_ids+=("$id")
+        done <<< "$ids"
+    done <<< "$ports"
+
+    # Remove duplicates
+    local unique_ids=($(printf "%s\n" "${container_ids[@]}" | sort -u))
+
+    if [ ${#unique_ids[@]} -gt 0 ]; then
+        echo "Stopping ${#unique_ids[@]} conflicting container(s)..."
+        docker stop "${unique_ids[@]}"
+        echo "Containers stopped."
     fi
-else
-    case $action_selection in
-        attached)
-            cd "$final_path"
-            docker compose up
-            ;;
-        detached)
-            cd "$final_path"
-            docker compose up -d
-            cd "$starting_path"
-            ;;
-        compose-down)
-            cd "$final_path"
-            docker compose down
-            cd "$starting_path"
-            ;;
-    esac
+}
+
+echo "Searching for docker-compose files (max depth: $MAX_DEPTH)..."
+
+# Find all docker-compose.*.yml files with depth limit and exclusions
+projects=$(find "$SEARCH_DIR" -maxdepth $MAX_DEPTH \
+    -type d \( \
+        -name node_modules -o \
+        -name .git -o \
+        -name .cache -o \
+        -name venv -o \
+        -name __pycache__ -o \
+        -name .venv -o \
+        -name vendor -o \
+        -name target \
+    \) -prune -o \
+    -name "docker-compose*.yml" -type f -print 2>/dev/null | \
+    sed 's|/[^/]*$||' | sort -u)
+
+if [ -z "$projects" ]; then
+    echo "No docker-compose files found in $SEARCH_DIR (depth: $MAX_DEPTH)"
+    exit 1
 fi
+
+project_count=$(echo "$projects" | wc -l)
+echo "Found $project_count project(s)"
+
+# Add "All Containers" option at the top
+all_containers_option="[All Containers] - Stop all running containers"
+projects_with_all=$(printf "%s\n%s" "$all_containers_option" "$projects")
+
+# Let user select a project
+project_selection=$(echo "$projects_with_all" | fzf --prompt="Select Project: " --height=40%)
+
+if [ -z "$project_selection" ]; then
+    echo "No project selected"
+    exit 1
+fi
+
+# Handle "All Containers" special case
+if [ "$project_selection" == "$all_containers_option" ]; then
+    all_docks=$(docker ps -q | wc -l)
+
+    if [ "$all_docks" -eq 0 ]; then
+        echo "No running containers found"
+        exit 0
+    fi
+
+    echo "Found $all_docks running container(s)"
+    read -p "Stop all $all_docks container(s)? (y/n): " -n 1 -r
+    echo
+
+    if [[ $REPLY =~ ^[Yy]$ ]]; then
+        docker stop $(docker ps -q)
+        echo "✓ Successfully stopped $all_docks container(s)"
+    else
+        echo "Operation cancelled"
+    fi
+
+    exit 0
+fi
+
+# Find all docker-compose files in the selected project
+mapfile -t compose_files < <(find "$project_selection" -maxdepth 1 -name "docker-compose*.yml" -type f | sort)
+
+if [ ${#compose_files[@]} -eq 0 ]; then
+    echo "No docker-compose files found in $project_selection"
+    exit 1
+fi
+
+# If multiple files, let user choose
+if [ ${#compose_files[@]} -gt 1 ]; then
+    compose_file=$(printf "%s\n" "${compose_files[@]}" | \
+        sed "s|$project_selection/||" | \
+        fzf --prompt="Select docker-compose file: " --height=40%)
+
+    if [ -z "$compose_file" ]; then
+        echo "No file selected"
+        exit 1
+    fi
+
+    compose_file="$project_selection/$compose_file"
+else
+    compose_file="${compose_files[0]}"
+fi
+
+echo "Selected: $compose_file"
+
+# Ask about action
+actions=("attached" "detached" "compose-down")
+action_selection=$(printf "%s\n" "${actions[@]}" | fzf --prompt="Select Action: " --height=40%)
+
+if [ -z "$action_selection" ]; then
+    echo "No action selected"
+    exit 1
+fi
+
+# For up commands, check for port conflicts
+if [ "$action_selection" != "compose-down" ]; then
+    echo "Checking for port conflicts..."
+    compose_ports=$(get_compose_ports "$compose_file" "$project_selection")
+
+    if [ -n "$compose_ports" ]; then
+        conflicts=$(get_containers_on_ports "$compose_ports")
+
+        if [ -n "$conflicts" ]; then
+            echo ""
+            echo "⚠️  Port conflicts detected:"
+            echo "$conflicts"
+            echo ""
+
+            read -p "Stop conflicting containers? (y/n): " -n 1 -r
+            echo
+
+            if [[ $REPLY =~ ^[Yy]$ ]]; then
+                stop_conflicting_containers "$compose_ports"
+                echo ""
+            else
+                echo "Proceeding anyway - this may fail due to port conflicts"
+            fi
+        else
+            echo "No port conflicts detected ✓"
+        fi
+    fi
+fi
+
+# Execute action
+starting_path=$(pwd)
+cd "$project_selection" || exit 1
+
+case $action_selection in
+    attached)
+        docker compose -f "$(basename "$compose_file")" up
+        ;;
+    detached)
+        docker compose -f "$(basename "$compose_file")" up -d
+        cd "$starting_path" || exit
+        echo "✓ Started containers in detached mode"
+        ;;
+    compose-down)
+        docker compose -f "$(basename "$compose_file")" down
+        cd "$starting_path" || exit
+        echo "✓ Containers stopped and removed"
+        ;;
+esac
